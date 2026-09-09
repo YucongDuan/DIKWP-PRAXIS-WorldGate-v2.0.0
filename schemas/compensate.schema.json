@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "action_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "expires_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "issued_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "kind": {
+      "const": "compensate"
+    },
+    "nonce": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reason": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "request_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "tenant": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "action_id",
+    "expires_at",
+    "issued_at",
+    "kind",
+    "nonce",
+    "reason",
+    "request_hash",
+    "tenant"
+  ],
+  "title": "WorldGate compensate payload; runtime remains authoritative",
+  "type": "object"
+}

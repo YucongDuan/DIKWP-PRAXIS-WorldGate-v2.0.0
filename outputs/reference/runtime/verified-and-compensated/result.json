@@ -1,0 +1,22 @@
+{
+  "case": "verified-and-compensated",
+  "events": 8,
+  "expected": "COMPENSATED",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 2,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "COMPENSATED",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

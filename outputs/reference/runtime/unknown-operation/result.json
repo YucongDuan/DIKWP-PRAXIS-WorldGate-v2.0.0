@@ -1,0 +1,22 @@
+{
+  "case": "unknown-operation",
+  "events": 5,
+  "expected": "ACTION_KIND",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "ACTION_KIND",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

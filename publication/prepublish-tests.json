@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "environment": "Linux; fresh local verification before GitHub import",
+  "total_tests": 221,
+  "failures": 0,
+  "errors": 0,
+  "command": "Run unittest discovery for tests/ and legacy/tests/ with PYTHONPATH=src; 106 WorldGate and 115 preserved legacy tests.",
+  "source_and_test_bytes_preserved": true,
+  "suites": {
+    "worldgate": 106,
+    "legacy": 115
+  }
+}

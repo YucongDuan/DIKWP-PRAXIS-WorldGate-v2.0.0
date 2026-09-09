@@ -1,0 +1,45 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-09-08T00:00:00Z",
+    "creators": [
+      "Person: Yucong Duan",
+      "Tool: Local reference release builder"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://example.invalid/praxis-worldgate/2.0.0/d18a1e8a3d0667b0249ce049d0771c381369842a89afced5c9652b78c6e76596",
+  "name": "DIKWP-PRAXIS-WORLDGATE-2.0.0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-WorldGate",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseDeclared": "Apache-2.0",
+      "name": "DIKWP-PRAXIS-WORLDGATE",
+      "versionInfo": "2.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Cryptography",
+      "comment": "External direct runtime dependency, not vendored. Platform/transitive dependencies are resolved by the host installer; this is not a complete wheel-distribution SBOM.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseDeclared": "Apache-2.0 OR BSD-3-Clause",
+      "name": "cryptography",
+      "versionInfo": "46.0.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-WorldGate",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Cryptography",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-WorldGate"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}

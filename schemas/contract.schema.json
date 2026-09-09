@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "candidate_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "contract_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "expires_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "issued_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "kind": {
+      "const": "contract"
+    },
+    "max_lease_seconds": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "max_units_per_action": {
+      "maximum": 1099511627776,
+      "minimum": 1,
+      "type": "integer"
+    },
+    "min_remaining": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "operation": {
+      "const": "inventory.reserve"
+    },
+    "owner": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "resources": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "tenant": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "candidate_hash",
+    "contract_id",
+    "expires_at",
+    "issued_at",
+    "kind",
+    "max_lease_seconds",
+    "max_units_per_action",
+    "min_remaining",
+    "operation",
+    "owner",
+    "resources",
+    "tenant"
+  ],
+  "title": "WorldGate contract payload; runtime remains authoritative",
+  "type": "object"
+}

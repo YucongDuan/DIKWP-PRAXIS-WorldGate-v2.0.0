@@ -1,0 +1,1 @@
+See docs/SECURITY_MODEL.md. This release is a locally tested reference implementation, not a security certification. A real private vulnerability-reporting contact must be configured by the maintainer before hosting.

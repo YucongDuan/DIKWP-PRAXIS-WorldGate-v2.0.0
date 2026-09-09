@@ -1,0 +1,9 @@
+{
+  "n": 10,
+  "population_ci": null,
+  "scope": "Sampling-design metadata must be externally correct; ESS is not an independent case count.",
+  "state": "HAJEK_RATIO_UNDER_DECLARED_INCLUSION_PROBABILITIES",
+  "unweighted_rate": 0.2,
+  "weight_effective_sample_size": 3.769230769230769,
+  "weighted_rate": 0.7142857142857143
+}

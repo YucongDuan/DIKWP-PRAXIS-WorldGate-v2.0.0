@@ -1,0 +1,218 @@
+{
+  "cn": {
+    "checks": [
+      {
+        "image_verified": true,
+        "page": 1,
+        "text_characters": 607,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 2,
+        "text_characters": 571,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 3,
+        "text_characters": 567,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 4,
+        "text_characters": 753,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 5,
+        "text_characters": 756,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 6,
+        "text_characters": 781,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 7,
+        "text_characters": 616,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 8,
+        "text_characters": 583,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 9,
+        "text_characters": 592,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 10,
+        "text_characters": 752,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 11,
+        "text_characters": 603,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 12,
+        "text_characters": 605,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 13,
+        "text_characters": 585,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 14,
+        "text_characters": 937,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 15,
+        "text_characters": 614,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 16,
+        "text_characters": 622,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 17,
+        "text_characters": 1090,
+        "text_contained": true
+      }
+    ],
+    "pages": 17,
+    "visual_review": "Rendered page images supplied for inspection; geometric checks do not certify every aesthetic detail."
+  },
+  "en": {
+    "checks": [
+      {
+        "image_verified": true,
+        "page": 1,
+        "text_characters": 1554,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 2,
+        "text_characters": 1525,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 3,
+        "text_characters": 1605,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 4,
+        "text_characters": 1545,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 5,
+        "text_characters": 1648,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 6,
+        "text_characters": 1618,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 7,
+        "text_characters": 1622,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 8,
+        "text_characters": 1683,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 9,
+        "text_characters": 1824,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 10,
+        "text_characters": 1681,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 11,
+        "text_characters": 1776,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 12,
+        "text_characters": 1617,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 13,
+        "text_characters": 1722,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 14,
+        "text_characters": 1487,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 15,
+        "text_characters": 1859,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 16,
+        "text_characters": 1763,
+        "text_contained": true
+      },
+      {
+        "image_verified": true,
+        "page": 17,
+        "text_characters": 1703,
+        "text_contained": true
+      }
+    ],
+    "pages": 17,
+    "visual_review": "Rendered page images supplied for inspection; geometric checks do not certify every aesthetic detail."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "key-evaluator": {
+    "principal": "evaluator-person",
+    "public_key": "BXHYdq4uR2sRJPq0KDa8A7uJWG9lYi/zndWLTLHrUD8=",
+    "roles": [
+      "evaluator"
+    ],
+    "tenant": "demo"
+  },
+  "key-executor": {
+    "principal": "executor-person",
+    "public_key": "kYsAoPMncHFpkQGmGCyhwdjWiQ5kB0fIyx2HmdrNoz8=",
+    "roles": [
+      "executor"
+    ],
+    "tenant": "demo"
+  },
+  "key-observer": {
+    "principal": "observer-person",
+    "public_key": "9GGADUaPr6rS1RcrpwJj3WprGz3kedO6OTVmAkMzVbk=",
+    "roles": [
+      "observer"
+    ],
+    "tenant": "demo"
+  },
+  "key-operator": {
+    "principal": "operator-person",
+    "public_key": "2e28M+keF1VVTdeNGWS2xVnPIjZlUcFI7+UgNvNm8VU=",
+    "roles": [
+      "operator"
+    ],
+    "tenant": "demo"
+  },
+  "key-owner": {
+    "principal": "owner-person",
+    "public_key": "HBf1K3SeJs6QhnCDINcQIaC0DUp2nYP1FYr5t7D+4ic=",
+    "roles": [
+      "owner"
+    ],
+    "tenant": "demo"
+  },
+  "key-reviewer": {
+    "principal": "reviewer-person",
+    "public_key": "vOWiZATWS2wlmDQ0HoBT0aWieq9/SrRbROCXOyzcQZc=",
+    "roles": [
+      "reviewer"
+    ],
+    "tenant": "demo"
+  }
+}

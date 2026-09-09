@@ -1,0 +1,17 @@
+﻿id,dimension,v1_baseline,v2_extension,implementation,boundary
+C01,Assessment vs action,Retained scoped evaluation and local release registry,Evidence-bound real local inventory mutations,kernel.py,One adapter; not generic production enforcement
+C02,Permission checks,Toy read broker and post-run trace audit,"Check authority again at commit, inside the write transaction",kernel.py,Host/DB administrators remain trusted
+C03,Signing,Shared-key HMAC local approval,Ed25519 separate public-role keys; distinct principal/key checks,signing.py,Key identity is not natural-person identity
+C04,Evidence freshness,Versioned local gate records,Expiring evidence; revocation cascades to derived active grants,kernel.py,Evaluator still bears truth/review responsibility
+C05,Race conditions,Fresh evaluation environments,Revision checks under BEGIN IMMEDIATE,kernel.py,Local SQLite boundary only
+C06,Retry ambiguity,Failure trace and local state rollback,Durable receipt plus payload-bound idempotency,kernel.py,No global exactly-once claim
+C07,Compensation,Rollback of release registry,Conditional inverse inventory effect with new revision,kernel.py,Conflict halts; external effects may be irreversible
+C08,World outcome,Declared postcondition and source metadata,Read-only snapshot plus separate observer signature,kernel.py,Same trusted host/DB; not an independent institution
+C09,Uncertain delivery,No remote side-effect protocol,Two-database outbox/status reconciliation fault lab,delivery.py,"Local stand-in, no network connector"
+C10,Audit integrity,Hash-chain and recorded recomputation,"Public-key anchor, optional external trust pin, fresh-state command replay",replay.py,Whole historical snapshot needs externally fresh anchor
+C11,Continuous inference,Fixed group bootstrap/Wilson summaries,Predeclared e-process mixture with family error allocation,monitor.py,Conditional risk assumptions and ordering are required
+C12,Missing outcomes,Missing evidence made visible,Unresolved group stops the monitoring prefix,monitor.py,A delay is not evidence of safety
+C13,Repair,Quarantined badcase proposals,Eight-policy bounded search and before-evaluation holdout consumption,probes.py,Not autonomous LLM fine-tuning or production repair
+C14,Counterexamples,Failure classification,Budgeted deletion-minimal reducer,probes.py,Not globally smallest or universal counterexample
+C15,Feedback to authority,Local lifecycle observation,Unsigned revocation proposal; separately signed operator action,experiments.py,"Demo approval uses a synthetic role, not a human"
+C16,Compatibility,Original 115 tests and v1 interface,Preserve 15 upstream Python files unchanged; legacy CLI,src/praxis_os,No silent change to old result meanings

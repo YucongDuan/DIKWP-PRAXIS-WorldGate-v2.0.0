@@ -1,0 +1,241 @@
+{
+  "actions": [],
+  "events": [
+    {
+      "body": {
+        "resources": [
+          {
+            "resource": "stock-a",
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "stage": "bootstrap",
+        "trust_hash": "8061e703d852becb5e82bfcc03defa63ca1dbe4a1d1c5100e4626da170b6efac"
+      },
+      "hash": "665906640e98ac6109b9f50befdeaf96abf2ec895a490ee41c45de0dbc9054af",
+      "prev": "0000000000000000000000000000000000000000000000000000000000000000",
+      "seq": 1
+    },
+    {
+      "body": {
+        "at": 1000,
+        "input": {
+          "key_id": "key-owner",
+          "payload": {
+            "candidate_hash": "08aacca7af812de75dd2e491cf60932e7c275f0b34211786e567ccdb3f7a98d5",
+            "contract_id": "contract-1",
+            "expires_at": 4600,
+            "issued_at": 1000,
+            "kind": "contract",
+            "max_lease_seconds": 300,
+            "max_units_per_action": 20,
+            "min_remaining": 2,
+            "operation": "inventory.reserve",
+            "owner": "owner-person",
+            "resources": [
+              "stock-a",
+              "stock-b"
+            ],
+            "tenant": "demo"
+          },
+          "signature": "wj8+UxiDoPnNNONK6EpBkgL2HeGyzIF9Wun50UbO8d9XQb6hDzdqnRwPmVB8liv746tksVthmPSB17GdXAvYDg=="
+        },
+        "result_hash": "45a620d7ad69dd0e50bbacd872e74ce6b8a351665d6e42200e6e30638a3885bb",
+        "stage": "contract"
+      },
+      "hash": "7d0772333bc21b58c51ff4918e3c9dc4462d3ad4aa7466869bd43e6aaf459a2d",
+      "prev": "665906640e98ac6109b9f50befdeaf96abf2ec895a490ee41c45de0dbc9054af",
+      "seq": 2
+    },
+    {
+      "body": {
+        "at": 1000,
+        "input": {
+          "key_id": "key-evaluator",
+          "payload": {
+            "artifact_hash": "132333b5f326ce46058197802a325f9da7aaa755a3fad20fc51bb92f7c49967a",
+            "candidate_hash": "08aacca7af812de75dd2e491cf60932e7c275f0b34211786e567ccdb3f7a98d5",
+            "case_groups": 36,
+            "contract_hash": "6ebb4ef51c4ce867731cc88ef9364bbccf76eed4f5e2eb39419995609540ee2b",
+            "expires_at": 2200,
+            "issued_at": 1000,
+            "kind": "evidence",
+            "operation": "inventory.reserve",
+            "origin": "synthetic_local_execution",
+            "tenant": "demo",
+            "verdict": "PASS_WITHIN_SCOPE"
+          },
+          "signature": "GWDxVu8rRHSGzT0BdHOvo2nKJhOTPyToPrYEInyH2Uobh8qokCMuFQBIDySewfYeUQck7Icd2i8qdFQmRKGxBA=="
+        },
+        "result_hash": "8d6570441bc7dad1b65345b5ac08a0ab373b59604af27a1f4b0d0b1ddc510c99",
+        "stage": "evidence"
+      },
+      "hash": "e6e469169d41975390ae0cc9f4e39c6960395b6a224302583550daf201d1e7f0",
+      "prev": "7d0772333bc21b58c51ff4918e3c9dc4462d3ad4aa7466869bd43e6aaf459a2d",
+      "seq": 3
+    },
+    {
+      "body": {
+        "at": 1000,
+        "input": {
+          "operator": {
+            "key_id": "key-operator",
+            "payload": {
+              "actor": "executor-person",
+              "candidate_hash": "08aacca7af812de75dd2e491cf60932e7c275f0b34211786e567ccdb3f7a98d5",
+              "contract_hash": "6ebb4ef51c4ce867731cc88ef9364bbccf76eed4f5e2eb39419995609540ee2b",
+              "evidence_hash": "3d45b04a542544d71c93c5ecb0e7e7fc1a062ea9be99c52a0b474615b2030b74",
+              "expires_at": 1300,
+              "grant_id": "grant-1",
+              "issued_at": 1000,
+              "kind": "grant",
+              "max_calls": 10,
+              "max_total_units": 100,
+              "operation": "inventory.reserve",
+              "resources": [
+                "stock-a",
+                "stock-b"
+              ],
+              "tenant": "demo"
+            },
+            "signature": "/u7YJaW+siptjBnz47w9rpWR7BeJRcdjOwqH8fWLVaigxUsAz9NNPu0GEw2xE9YnjAlOatbXMYMhb3a7a25tBg=="
+          },
+          "review": {
+            "key_id": "key-reviewer",
+            "payload": {
+              "actor": "executor-person",
+              "candidate_hash": "08aacca7af812de75dd2e491cf60932e7c275f0b34211786e567ccdb3f7a98d5",
+              "contract_hash": "6ebb4ef51c4ce867731cc88ef9364bbccf76eed4f5e2eb39419995609540ee2b",
+              "evidence_hash": "3d45b04a542544d71c93c5ecb0e7e7fc1a062ea9be99c52a0b474615b2030b74",
+              "expires_at": 1300,
+              "grant_id": "grant-1",
+              "issued_at": 1000,
+              "kind": "grant",
+              "max_calls": 10,
+              "max_total_units": 100,
+              "operation": "inventory.reserve",
+              "resources": [
+                "stock-a",
+                "stock-b"
+              ],
+              "tenant": "demo"
+            },
+            "signature": "WKkn5fDJ+F+8e3v9oGXE6LsxYhi6ZpKiYdDflsHg+y/Da180CB0CykjNY8r6ycwS943Xg9lgrVtR7gmXlIBaAw=="
+          }
+        },
+        "result_hash": "51e1139c3ea53c28222d4e5de72cfae7778f4e86e810a04b91356cc837ea715c",
+        "stage": "grant"
+      },
+      "hash": "9d9f9aca8db0255e136377999b45523e6f29fd6a34a92024aa62104333311167",
+      "prev": "e6e469169d41975390ae0cc9f4e39c6960395b6a224302583550daf201d1e7f0",
+      "seq": 4
+    },
+    {
+      "body": {
+        "at": 1001,
+        "input_hash": "9800850ea4635172a93364b964d19536b65d306d1801b56beb42e8f6efa4969a",
+        "operation": "prepare",
+        "reason": "INTEGER_RANGE",
+        "stage": "denied"
+      },
+      "hash": "06d5e7742eef85bc100f25295318962277d1e52ce6e3ec3fa55ac592f5c64d0d",
+      "prev": "9d9f9aca8db0255e136377999b45523e6f29fd6a34a92024aa62104333311167",
+      "seq": 5
+    }
+  ],
+  "grants": [
+    {
+      "active": 1,
+      "calls": 0,
+      "id": "grant-1",
+      "tenant": "demo",
+      "units": 0
+    }
+  ],
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "objects": [
+    {
+      "active": 1,
+      "id": "6ebb4ef51c4ce867731cc88ef9364bbccf76eed4f5e2eb39419995609540ee2b",
+      "kind": "contract",
+      "tenant": "demo"
+    },
+    {
+      "active": 1,
+      "id": "3d45b04a542544d71c93c5ecb0e7e7fc1a062ea9be99c52a0b474615b2030b74",
+      "kind": "evidence",
+      "tenant": "demo"
+    }
+  ],
+  "system": "PRAXIS-WORLDGATE",
+  "trust": {
+    "key-evaluator": {
+      "principal": "evaluator-person",
+      "public_key": "PVJXaXSsCxO4S2bc5Spwapo3QDOQfWRwZBVYdfknsRo=",
+      "roles": [
+        "evaluator"
+      ],
+      "tenant": "demo"
+    },
+    "key-executor": {
+      "principal": "executor-person",
+      "public_key": "YBvTEfIhL2Orjeq4sQClKyPfL60lXcAaZD6C+p+H/w8=",
+      "roles": [
+        "executor"
+      ],
+      "tenant": "demo"
+    },
+    "key-observer": {
+      "principal": "observer-person",
+      "public_key": "MEiZD+I0/QFeDLX2FNKRaPiGVOAxcWgz9pErc7L+DIY=",
+      "roles": [
+        "observer"
+      ],
+      "tenant": "demo"
+    },
+    "key-operator": {
+      "principal": "operator-person",
+      "public_key": "UUrlUDXSA6XQbmyt3fMo7eh3YzncKxxuBFLaEMiEgqU=",
+      "roles": [
+        "operator"
+      ],
+      "tenant": "demo"
+    },
+    "key-owner": {
+      "principal": "owner-person",
+      "public_key": "KX/X6aTY+tAPBTGP7h0kUF88TDpZFSJFGYpqtjRrhUQ=",
+      "roles": [
+        "owner"
+      ],
+      "tenant": "demo"
+    },
+    "key-reviewer": {
+      "principal": "reviewer-person",
+      "public_key": "e9cF6IiRhIlj/VE40ZTcUNcAcorrw82J3td2hIAgbgM=",
+      "roles": [
+        "reviewer"
+      ],
+      "tenant": "demo"
+    }
+  },
+  "version": "2.0.0"
+}

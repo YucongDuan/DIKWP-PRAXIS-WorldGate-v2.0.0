@@ -1,0 +1,10 @@
+{
+  "action_id": "action-1",
+  "expires_at": 1124,
+  "issued_at": 1004,
+  "kind": "compensate",
+  "nonce": "undo-action-1",
+  "reason": "Synthetic authorized compensation",
+  "request_hash": "b729f233a50923c6a7fb958596cc29e0f19d072b748a22dcd8258ae95bf88a99",
+  "tenant": "demo"
+}

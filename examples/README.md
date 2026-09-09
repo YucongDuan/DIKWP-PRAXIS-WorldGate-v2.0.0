@@ -1,0 +1,1 @@
+These are schema specimens from the executed synthetic epoch=1000 demonstration. They intentionally expire under the real host clock. They are NOT production-ready approvals. Use init, review actual hashes/resources/evidence, and sign fresh payloads under separate real custody. Never change the broker clock to make a specimen valid.

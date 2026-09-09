@@ -1,0 +1,547 @@
+{
+  "adverse": {
+    "assumptions": [
+      "Configuration and alternative mixture fixed before data.",
+      "Under H0, P(failure in group g | past) <= p0.",
+      "Declared family size covers all streams; no post-hoc exclusions.",
+      "Group labels do not establish representativeness."
+    ],
+    "config": {
+      "alternatives": [
+        0.1,
+        0.2,
+        0.4,
+        0.7
+      ],
+      "family_alpha": 0.05,
+      "family_size": 2,
+      "monitor_id": "risk-example",
+      "p0": 0.05,
+      "protocol_hash": "358d12b3df91f6d9bd9344ce8ebbc04d756e59bbca12ffa2d524a1cccdde10d2"
+    },
+    "config_hash": "c64880cddf21461489b87679209ba44b24f41b140c2b0ac5e6f9e71a4f0b7404",
+    "first_alarm_at": 15,
+    "limits": [
+      "Pending outcomes block the ordered prefix rather than disappear.",
+      "No rejection is not proof of safety.",
+      "Critical incidents can suspend actions without waiting for significance.",
+      "No automatic connection from this calculator to production permissions."
+    ],
+    "processed_ordered_groups": 25,
+    "series": [
+      {
+        "crossed": false,
+        "e_value_capped": 0.6842105263157895,
+        "failed": false,
+        "group_id": "g-0",
+        "log_e": -0.37948962170490375,
+        "sequence": 1
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.5263157894736844,
+        "failed": false,
+        "group_id": "g-1",
+        "log_e": -0.6418538861723945,
+        "sequence": 2
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.43271613937891834,
+        "failed": false,
+        "group_id": "g-2",
+        "log_e": -0.83767333321205,
+        "sequence": 3
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.3693648759601293,
+        "failed": false,
+        "group_id": "g-3",
+        "log_e": -0.9959702997655739,
+        "sequence": 4
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.32255899299664526,
+        "failed": false,
+        "group_id": "g-4",
+        "log_e": -1.131469235454263,
+        "sequence": 5
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.28600846054939444,
+        "failed": false,
+        "group_id": "g-5",
+        "log_e": -1.2517338862592933,
+        "sequence": 6
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.25640346148140175,
+        "failed": false,
+        "group_id": "g-6",
+        "log_e": -1.361003053709271,
+        "sequence": 7
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.23179160265113663,
+        "failed": false,
+        "group_id": "g-7",
+        "log_e": -1.4619165754318402,
+        "sequence": 8
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.2109226870328783,
+        "failed": false,
+        "group_id": "g-8",
+        "log_e": -1.5562636248178643,
+        "sequence": 9
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.19294998968487706,
+        "failed": false,
+        "group_id": "g-9",
+        "log_e": -1.6453242444585934,
+        "sequence": 10
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.49074524310085516,
+        "failed": true,
+        "group_id": "g-10",
+        "log_e": -0.711830138993574,
+        "sequence": 11
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 1.4617611408998894,
+        "failed": true,
+        "group_id": "g-11",
+        "log_e": 0.37964196966244645,
+        "sequence": 12
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 5.333496905773183,
+        "failed": true,
+        "group_id": "g-12",
+        "log_e": 1.6740071029338337,
+        "sequence": 13
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 24.24288124675233,
+        "failed": true,
+        "group_id": "g-13",
+        "log_e": 3.1881230174522948,
+        "sequence": 14
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 134.62516431896327,
+        "failed": true,
+        "group_id": "g-14",
+        "log_e": 4.90249435604378,
+        "sequence": 15
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 873.3659205987415,
+        "failed": true,
+        "group_id": "g-15",
+        "log_e": 6.7723546210535766,
+        "sequence": 16
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 6307.854438059211,
+        "failed": true,
+        "group_id": "g-16",
+        "log_e": 8.749550872049275,
+        "sequence": 17
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 48972.23002016588,
+        "failed": true,
+        "group_id": "g-17",
+        "log_e": 10.79900868215586,
+        "sequence": 18
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 401633.2756116649,
+        "failed": true,
+        "group_id": "g-18",
+        "log_e": 12.903294701525923,
+        "sequence": 19
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 3471254.450662554,
+        "failed": true,
+        "group_id": "g-19",
+        "log_e": 15.060026599752142,
+        "sequence": 20
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 31860152.645011526,
+        "failed": true,
+        "group_id": "g-20",
+        "log_e": 17.27686665355245,
+        "sequence": 21
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 314034052.1139844,
+        "failed": true,
+        "group_id": "g-21",
+        "log_e": 19.56501198421554,
+        "sequence": 22
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 3347955351.8624296,
+        "failed": true,
+        "group_id": "g-22",
+        "log_e": 21.931615653720808,
+        "sequence": 23
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 38513334174.60027,
+        "failed": true,
+        "group_id": "g-23",
+        "log_e": 24.374270360474945,
+        "sequence": 24
+      },
+      {
+        "crossed": true,
+        "e_value_capped": 472442787642.20276,
+        "failed": true,
+        "group_id": "g-24",
+        "log_e": 26.88118249219378,
+        "sequence": 25
+      }
+    ],
+    "state": "RISK_BOUND_REJECTED",
+    "submitted_groups": 25,
+    "threshold": 40.0
+  },
+  "clean": {
+    "assumptions": [
+      "Configuration and alternative mixture fixed before data.",
+      "Under H0, P(failure in group g | past) <= p0.",
+      "Declared family size covers all streams; no post-hoc exclusions.",
+      "Group labels do not establish representativeness."
+    ],
+    "config": {
+      "alternatives": [
+        0.1,
+        0.2,
+        0.4,
+        0.7
+      ],
+      "family_alpha": 0.05,
+      "family_size": 2,
+      "monitor_id": "risk-example",
+      "p0": 0.05,
+      "protocol_hash": "358d12b3df91f6d9bd9344ce8ebbc04d756e59bbca12ffa2d524a1cccdde10d2"
+    },
+    "config_hash": "c64880cddf21461489b87679209ba44b24f41b140c2b0ac5e6f9e71a4f0b7404",
+    "first_alarm_at": null,
+    "limits": [
+      "Pending outcomes block the ordered prefix rather than disappear.",
+      "No rejection is not proof of safety.",
+      "Critical incidents can suspend actions without waiting for significance.",
+      "No automatic connection from this calculator to production permissions."
+    ],
+    "processed_ordered_groups": 25,
+    "series": [
+      {
+        "crossed": false,
+        "e_value_capped": 0.6842105263157895,
+        "failed": false,
+        "group_id": "g-0",
+        "log_e": -0.37948962170490375,
+        "sequence": 1
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.5263157894736844,
+        "failed": false,
+        "group_id": "g-1",
+        "log_e": -0.6418538861723945,
+        "sequence": 2
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.43271613937891834,
+        "failed": false,
+        "group_id": "g-2",
+        "log_e": -0.83767333321205,
+        "sequence": 3
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.3693648759601293,
+        "failed": false,
+        "group_id": "g-3",
+        "log_e": -0.9959702997655739,
+        "sequence": 4
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.32255899299664526,
+        "failed": false,
+        "group_id": "g-4",
+        "log_e": -1.131469235454263,
+        "sequence": 5
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.28600846054939444,
+        "failed": false,
+        "group_id": "g-5",
+        "log_e": -1.2517338862592933,
+        "sequence": 6
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.25640346148140175,
+        "failed": false,
+        "group_id": "g-6",
+        "log_e": -1.361003053709271,
+        "sequence": 7
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.23179160265113663,
+        "failed": false,
+        "group_id": "g-7",
+        "log_e": -1.4619165754318402,
+        "sequence": 8
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.2109226870328783,
+        "failed": false,
+        "group_id": "g-8",
+        "log_e": -1.5562636248178643,
+        "sequence": 9
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.19294998968487706,
+        "failed": false,
+        "group_id": "g-9",
+        "log_e": -1.6453242444585934,
+        "sequence": 10
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.17727655529456246,
+        "failed": false,
+        "group_id": "g-10",
+        "log_e": -1.7300443064865347,
+        "sequence": 11
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.16346799803550283,
+        "failed": false,
+        "group_id": "g-11",
+        "log_e": -1.811138038472284,
+        "sequence": 12
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.1511995622257196,
+        "failed": false,
+        "group_id": "g-12",
+        "log_e": -1.8891547105734383,
+        "sequence": 13
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.14022253080698893,
+        "failed": false,
+        "group_id": "g-13",
+        "log_e": -1.9645246125358633,
+        "sequence": 14
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.13034225978855335,
+        "failed": false,
+        "group_id": "g-14",
+        "log_e": -2.037591520583934,
+        "sequence": 15
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.12140347715487732,
+        "failed": false,
+        "group_id": "g-15",
+        "log_e": -2.1086357586344846,
+        "sequence": 16
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.11328023720734215,
+        "failed": false,
+        "group_id": "g-16",
+        "log_e": -2.177890555047552,
+        "sequence": 17
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.1058689140433539,
+        "failed": false,
+        "group_id": "g-17",
+        "log_e": -2.245553610133373,
+        "sequence": 18
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.09908321111835589,
+        "failed": false,
+        "group_id": "g-18",
+        "log_e": -2.311795265536575,
+        "sequence": 19
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.09285052977908356,
+        "failed": false,
+        "group_id": "g-19",
+        "log_e": -2.3767642854475883,
+        "sequence": 20
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.08710926963705976,
+        "failed": false,
+        "group_id": "g-20",
+        "log_e": -2.4405919755618757,
+        "sequence": 21
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.08180677990436078,
+        "failed": false,
+        "group_id": "g-21",
+        "log_e": -2.503395154891727,
+        "sequence": 22
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.07689777464795772,
+        "failed": false,
+        "group_id": "g-22",
+        "log_e": -2.5652783411472853,
+        "sequence": 23
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.07234308561144025,
+        "failed": false,
+        "group_id": "g-23",
+        "log_e": -2.6263353990764484,
+        "sequence": 24
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.06810866585022735,
+        "failed": false,
+        "group_id": "g-24",
+        "log_e": -2.6866508220836245,
+        "sequence": 25
+      }
+    ],
+    "state": "NO_REJECTION_NOT_A_SAFETY_CERTIFICATE",
+    "submitted_groups": 25,
+    "threshold": 40.0
+  },
+  "delayed": {
+    "assumptions": [
+      "Configuration and alternative mixture fixed before data.",
+      "Under H0, P(failure in group g | past) <= p0.",
+      "Declared family size covers all streams; no post-hoc exclusions.",
+      "Group labels do not establish representativeness."
+    ],
+    "config": {
+      "alternatives": [
+        0.1,
+        0.2,
+        0.4,
+        0.7
+      ],
+      "family_alpha": 0.05,
+      "family_size": 2,
+      "monitor_id": "risk-example",
+      "p0": 0.05,
+      "protocol_hash": "358d12b3df91f6d9bd9344ce8ebbc04d756e59bbca12ffa2d524a1cccdde10d2"
+    },
+    "config_hash": "c64880cddf21461489b87679209ba44b24f41b140c2b0ac5e6f9e71a4f0b7404",
+    "first_alarm_at": null,
+    "limits": [
+      "Pending outcomes block the ordered prefix rather than disappear.",
+      "No rejection is not proof of safety.",
+      "Critical incidents can suspend actions without waiting for significance.",
+      "No automatic connection from this calculator to production permissions."
+    ],
+    "processed_ordered_groups": 5,
+    "series": [
+      {
+        "crossed": false,
+        "e_value_capped": 0.6842105263157895,
+        "failed": false,
+        "group_id": "g-0",
+        "log_e": -0.37948962170490375,
+        "sequence": 1
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.5263157894736844,
+        "failed": false,
+        "group_id": "g-1",
+        "log_e": -0.6418538861723945,
+        "sequence": 2
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.43271613937891834,
+        "failed": false,
+        "group_id": "g-2",
+        "log_e": -0.83767333321205,
+        "sequence": 3
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.3693648759601293,
+        "failed": false,
+        "group_id": "g-3",
+        "log_e": -0.9959702997655739,
+        "sequence": 4
+      },
+      {
+        "crossed": false,
+        "e_value_capped": 0.32255899299664526,
+        "failed": false,
+        "group_id": "g-4",
+        "log_e": -1.131469235454263,
+        "sequence": 5
+      }
+    ],
+    "state": "AWAITING_ORDERED_OUTCOME",
+    "submitted_groups": 25,
+    "threshold": 40.0
+  }
+}

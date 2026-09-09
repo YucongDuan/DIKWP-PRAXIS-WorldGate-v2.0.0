@@ -1,0 +1,13 @@
+{
+  "action_id": "action-1",
+  "actor": "executor-person",
+  "candidate_hash": "08aacca7af812de75dd2e491cf60932e7c275f0b34211786e567ccdb3f7a98d5",
+  "contract_hash": "6ebb4ef51c4ce867731cc88ef9364bbccf76eed4f5e2eb39419995609540ee2b",
+  "expected_revision": 0,
+  "grant_id": "grant-1",
+  "kind": "action",
+  "operation": "inventory.reserve",
+  "resource": "stock-a",
+  "tenant": "demo",
+  "units": 3
+}

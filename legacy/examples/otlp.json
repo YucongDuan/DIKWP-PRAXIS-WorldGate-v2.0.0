@@ -1,0 +1,54 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "attributes": [],
+              "spanId": "0000000000000001",
+              "traceId": "00000000000000000000000000000001"
+            },
+            {
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "synthetic-model"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "private@example.com"
+                  }
+                },
+                {
+                  "key": "private_chain_of_thought",
+                  "value": {
+                    "stringValue": "DO NOT LOG"
+                  }
+                },
+                {
+                  "key": "vendor.extra",
+                  "value": {
+                    "stringValue": "unmapped"
+                  }
+                }
+              ],
+              "parentSpanId": "0000000000000001",
+              "spanId": "0000000000000002",
+              "traceId": "00000000000000000000000000000001"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

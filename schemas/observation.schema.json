@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "action_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "actual": {
+      "additionalProperties": false,
+      "properties": {
+        "resource": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "revision": {
+          "maximum": 1099511627776,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "tenant": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "units": {
+          "maximum": 1099511627776,
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "resource",
+        "revision",
+        "tenant",
+        "units"
+      ],
+      "type": "object"
+    },
+    "expires_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "kind": {
+      "const": "observation"
+    },
+    "observed_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "receipt_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "request_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "tenant": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "action_id",
+    "actual",
+    "expires_at",
+    "kind",
+    "observed_at",
+    "receipt_hash",
+    "request_hash",
+    "tenant"
+  ],
+  "title": "WorldGate observation payload; runtime remains authoritative",
+  "type": "object"
+}

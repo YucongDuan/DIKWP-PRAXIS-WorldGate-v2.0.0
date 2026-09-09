@@ -1,0 +1,22 @@
+{
+  "case": "compensation-conflict",
+  "events": 9,
+  "expected": "COMPENSATION_CONFLICT",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 2,
+      "tenant": "demo",
+      "units": 92
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "COMPENSATION_CONFLICT",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

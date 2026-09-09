@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "action_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "actor": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "candidate_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "contract_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "expected_revision": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "grant_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "kind": {
+      "const": "action"
+    },
+    "operation": {
+      "const": "inventory.reserve"
+    },
+    "resource": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "tenant": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "units": {
+      "maximum": 1099511627776,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "action_id",
+    "actor",
+    "candidate_hash",
+    "contract_hash",
+    "expected_revision",
+    "grant_id",
+    "kind",
+    "operation",
+    "resource",
+    "tenant",
+    "units"
+  ],
+  "title": "WorldGate action payload; runtime remains authoritative",
+  "type": "object"
+}

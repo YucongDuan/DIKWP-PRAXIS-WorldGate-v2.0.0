@@ -1,0 +1,16 @@
+{
+  "authenticated_anchor_checked": true,
+  "chain_valid": true,
+  "commands_reexecuted": 5,
+  "events": 6,
+  "external_trust_pinned": true,
+  "hash_only_denials_not_reexecuted": 0,
+  "limits": [
+    "Not a fresh agent run.",
+    "Denials retain hashes, so their original inputs are not replayed.",
+    "Retain the latest public trust root and signed anchor independently to detect wholesale rollback."
+  ],
+  "signature_valid": true,
+  "state": "RECORDED_COMMAND_REPLAY_MATCH",
+  "tail": "e39e8b0a0ba57777265df37190d2e617f67396cc5ec252e6136513481986a1a7"
+}

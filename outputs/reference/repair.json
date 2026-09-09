@@ -1,0 +1,520 @@
+{
+  "counterexample": {
+    "evaluations": 5,
+    "items": [
+      {
+        "active": false,
+        "amount": 11
+      }
+    ],
+    "state": "DELETION_MINIMAL_WITHIN_GIVEN_PREDICATE"
+  },
+  "deployed": false,
+  "development": [
+    {
+      "candidate_hash": "f241456922c2de835b25d6f8f8d2d4c77b171a7495f4280736567009b208ecc5",
+      "correct": 15,
+      "policy": {
+        "ignore_untrusted_text": false,
+        "respect_floor": false,
+        "strict_integer": false
+      },
+      "total": 36
+    },
+    {
+      "candidate_hash": "52d49705a5b37e72cf2f1e4e6981179ba318d7e18951efd91bb191622cc303ab",
+      "correct": 20,
+      "policy": {
+        "ignore_untrusted_text": true,
+        "respect_floor": false,
+        "strict_integer": false
+      },
+      "total": 36
+    },
+    {
+      "candidate_hash": "d809d6573b87bd8e33da4308c894e3c50ee3a259af4e8417daad6e3e21f8cc49",
+      "correct": 24,
+      "policy": {
+        "ignore_untrusted_text": false,
+        "respect_floor": true,
+        "strict_integer": false
+      },
+      "total": 36
+    },
+    {
+      "candidate_hash": "42f99ce6ba35614a0e970f975b90216ae59113c749005853df3506f3051c5637",
+      "correct": 24,
+      "policy": {
+        "ignore_untrusted_text": true,
+        "respect_floor": true,
+        "strict_integer": false
+      },
+      "total": 36
+    },
+    {
+      "candidate_hash": "16d2515ec2704d1eca58490c58fe9d0814091aa52fa293c0462176ce1fcdd94c",
+      "correct": 25,
+      "policy": {
+        "ignore_untrusted_text": false,
+        "respect_floor": false,
+        "strict_integer": true
+      },
+      "total": 36
+    },
+    {
+      "candidate_hash": "2ccb4e25fd0aa2c3c6f91f4aaf7dead3b8aa72e7e6fa948dc72b638dc87e03d7",
+      "correct": 32,
+      "policy": {
+        "ignore_untrusted_text": true,
+        "respect_floor": false,
+        "strict_integer": true
+      },
+      "total": 36
+    },
+    {
+      "candidate_hash": "332bf677b9a34dcd06089ae5b37c3f4cd22698e49f6b159a2465bec581da8497",
+      "correct": 34,
+      "policy": {
+        "ignore_untrusted_text": false,
+        "respect_floor": true,
+        "strict_integer": true
+      },
+      "total": 36
+    },
+    {
+      "candidate_hash": "9386c39f8aa8a94d3ad09d016dbff90f794650f1a9c93edc4467e1b898eddddd",
+      "correct": 36,
+      "policy": {
+        "ignore_untrusted_text": true,
+        "respect_floor": true,
+        "strict_integer": true
+      },
+      "total": 36
+    }
+  ],
+  "development_executions": 288,
+  "holdout_correct": 36,
+  "holdout_executions": 36,
+  "holdout_results": [
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 1
+      },
+      "case_id": "c-97-0",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 1
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-1",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 4
+      },
+      "case_id": "c-97-2",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 4
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-3",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-4",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-5",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-6",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-7",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-8",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 1
+      },
+      "case_id": "c-97-9",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 1
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-10",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 7
+      },
+      "case_id": "c-97-11",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 7
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-12",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-13",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-14",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-15",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-16",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-17",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 1
+      },
+      "case_id": "c-97-18",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 1
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-19",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 1
+      },
+      "case_id": "c-97-20",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 1
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-21",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-22",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-23",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-24",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-25",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-26",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 1
+      },
+      "case_id": "c-97-27",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 1
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-28",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "PROPOSE",
+        "units": 1
+      },
+      "case_id": "c-97-29",
+      "expected": {
+        "decision": "PROPOSE",
+        "units": 1
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-30",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-31",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-32",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-33",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-34",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    },
+    {
+      "actual": {
+        "decision": "HOLD",
+        "units": 0
+      },
+      "case_id": "c-97-35",
+      "expected": {
+        "decision": "HOLD",
+        "units": 0
+      }
+    }
+  ],
+  "holdout_ticket": {
+    "candidate_hash": "9386c39f8aa8a94d3ad09d016dbff90f794650f1a9c93edc4467e1b898eddddd",
+    "family": "reservation-rule-family",
+    "holdout_hash": "a0b5e2251630f0df07f8a3163ed5cfc4339c02d41e67827c4cbf249e75e469d3",
+    "state": "CONSUMED_BEFORE_EVALUATION"
+  },
+  "holdout_total": 36,
+  "limits": [
+    "Three predefined Boolean rules; not general autonomous self-improvement.",
+    "Public synthetic holdout, not a hidden benchmark.",
+    "Deleting or copying the trusted local budget DB defeats the local one-use policy.",
+    "No test-label edit, grant creation or external deployment."
+  ],
+  "repeat_attempt": "HOLDOUT_REUSE_BLOCKED",
+  "selected": {
+    "candidate_hash": "9386c39f8aa8a94d3ad09d016dbff90f794650f1a9c93edc4467e1b898eddddd",
+    "correct": 36,
+    "policy": {
+      "ignore_untrusted_text": true,
+      "respect_floor": true,
+      "strict_integer": true
+    },
+    "total": 36
+  }
+}

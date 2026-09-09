@@ -1,0 +1,22 @@
+{
+  "case": "tampered-signature",
+  "events": 5,
+  "expected": "BAD_SIGNATURE",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "BAD_SIGNATURE",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

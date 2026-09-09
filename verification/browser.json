@@ -1,0 +1,17 @@
+{
+  "console_errors": [],
+  "external_http_requests": [],
+  "html_injection_rendered_as_text": true,
+  "imported_data_unverified_label": true,
+  "interactive_browser_passed": true,
+  "invalid_import_preserves_data": true,
+  "javascript_syntax": true,
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "loading_method": "Full HTML injected via set_content; file URL blocked by managed browser policy",
+  "mobile_width_check": true,
+  "runtime_rows": 23,
+  "unsigned_draft_exported": true
+}

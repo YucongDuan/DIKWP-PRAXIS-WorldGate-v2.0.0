@@ -1,0 +1,28 @@
+{
+  "approval_source": "ephemeral synthetic operator key, not a real human",
+  "next_action": "GRANT_REVOKED_OR_UNKNOWN",
+  "operator_authorized_revocation": {
+    "affected_grants": [
+      "grant-1"
+    ],
+    "historical_effects_erased": false,
+    "state": "REVOKED"
+  },
+  "proposal_generated": true,
+  "replay": {
+    "authenticated_anchor_checked": true,
+    "chain_valid": true,
+    "commands_reexecuted": 4,
+    "events": 6,
+    "external_trust_pinned": true,
+    "hash_only_denials_not_reexecuted": 1,
+    "limits": [
+      "Not a fresh agent run.",
+      "Denials retain hashes, so their original inputs are not replayed.",
+      "Retain the latest public trust root and signed anchor independently to detect wholesale rollback."
+    ],
+    "signature_valid": true,
+    "state": "RECORDED_COMMAND_REPLAY_MATCH",
+    "tail": "e4b41ca7bc3bd6959767a0f0a84241306cdebc474400619e07cca84a20472d17"
+  }
+}

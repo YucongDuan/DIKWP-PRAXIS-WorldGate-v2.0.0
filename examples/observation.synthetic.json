@@ -1,0 +1,15 @@
+{
+  "action_id": "action-1",
+  "actual": {
+    "resource": "stock-a",
+    "revision": 1,
+    "tenant": "demo",
+    "units": 97
+  },
+  "expires_at": 1123,
+  "kind": "observation",
+  "observed_at": 1003,
+  "receipt_hash": "9a5b6e0184421639e69a88192b355a6f86edefc8816e1c637ed1435e0a9c3f86",
+  "request_hash": "b729f233a50923c6a7fb958596cc29e0f19d072b748a22dcd8258ae95bf88a99",
+  "tenant": "demo"
+}

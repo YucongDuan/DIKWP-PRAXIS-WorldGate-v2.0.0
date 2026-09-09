@@ -1,0 +1,22 @@
+{
+  "case": "wrong-tenant",
+  "events": 5,
+  "expected": "UNTRUSTED_ROLE_OR_TENANT",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "UNTRUSTED_ROLE_OR_TENANT",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "artifact_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "candidate_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "case_groups": {
+      "maximum": 1099511627776,
+      "minimum": 1,
+      "type": "integer"
+    },
+    "contract_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "expires_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "issued_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "kind": {
+      "const": "evidence"
+    },
+    "operation": {
+      "const": "inventory.reserve"
+    },
+    "origin": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "tenant": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "verdict": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "artifact_hash",
+    "candidate_hash",
+    "case_groups",
+    "contract_hash",
+    "expires_at",
+    "issued_at",
+    "kind",
+    "operation",
+    "origin",
+    "tenant",
+    "verdict"
+  ],
+  "title": "WorldGate evidence payload; runtime remains authoritative",
+  "type": "object"
+}

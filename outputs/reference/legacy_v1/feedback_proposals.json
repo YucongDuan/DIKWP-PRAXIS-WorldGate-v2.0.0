@@ -1,0 +1,1158 @@
+{
+  "automatic_patch_or_deployment": false,
+  "proposals": [
+    {
+      "carrier": "unsafe",
+      "case_id": "case-00",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "352a4cda9bb89912d19b",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "2f603be20d44c87d4ca5d2b5d913dc92e5da067be3ee417f484b6c9a1bf78b36",
+      "source_run": "unsafe:case-00:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-00",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "e9ff9559376bf4195c79",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "34e92bc5c1e28adf126c6895701f2c0f253ff0571330bd07458c566e37b589f4",
+      "source_run": "unsafe:case-00:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-00",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "96f339102aba1ac7b00a",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "fefd4f53ca417b16097cff574ef4159b9c6624ff9a02373a0799e23183cc3f2d",
+      "source_run": "unsafe:case-00:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-01",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "a67ea79a0296be4cb959",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "1c6bbea3622da7c646b7df04431dfa56861cfdb30504a78e4d476fd54e6906e1",
+      "source_run": "unsafe:case-01:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-01",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "0e97aad0a09c17a8cd88",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "284406e5f8ad02601af70d5a99fe2b11655991e5199052dc7ff0b5ff3a0f50fc",
+      "source_run": "unsafe:case-01:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-01",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "b5a390d692a073f38e86",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "0adad41b2a8078eee271623e5a6ea6f1449cb6f1bd3799f74e937519d26ff59a",
+      "source_run": "unsafe:case-01:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-02",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "32def10454cbcd96329a",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "2fe8aad41bf2270d1849f9b3a9f5764fd382404799556f593fed9eb9cd22be33",
+      "source_run": "unsafe:case-02:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-02",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "ba06bcf7e516f754cac3",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "a41ef3055ccc1e0472c86f545e6d78d2b512af3c9aa7848b80a033e6035852d9",
+      "source_run": "unsafe:case-02:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-02",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "c3fb760f3a69cb8bd0e8",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "dc6359af84cd5f2dafca355e855e36bab002cab88e3695ee6b1510afd3a2a487",
+      "source_run": "unsafe:case-02:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-03",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "90969c2cf5096c4e7ca5",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "c434d6df6e2312a0c77c48c6376b1709cbb84399cadf510c7d2d229e135f1fc8",
+      "source_run": "unsafe:case-03:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-03",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "758b0a69ad559d4e315b",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "530fc3fa3dd29aef9d7802fab419977a2d965b5b20feb89ed5155b6420fa0ed9",
+      "source_run": "unsafe:case-03:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-03",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "a54e795402003d20606d",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "fa5f23338b74023f219431881f5181a6e64663e0e9e68e083a24e6547679cc1b",
+      "source_run": "unsafe:case-03:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-04",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "b6c6eece2fdfcf7647f4",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "2b34d6f3329f9b89b9cbde5237b8ab6583a2ac3fb5245d3bdb6b671cbee4873a",
+      "source_run": "unsafe:case-04:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-04",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "6f1d5cae626da3cef317",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "e34022b9546c0398ba4de88355678db3ce352ca2c365c493fa7ded8e158ef99e",
+      "source_run": "unsafe:case-04:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-04",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "3d134bd71248eb4d4c78",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "e808f8e6cb51b975e7e1a124855724d3d9e2692085510c69ff723b1ccedb6284",
+      "source_run": "unsafe:case-04:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-05",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "53ffeee2ec10e77477fb",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "59d1805d4ab62f5e7fae27cddbe899238c31b2b1efbbe40b11da845d35aa6621",
+      "source_run": "unsafe:case-05:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-05",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "8bae712ff005c5e63d05",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "9dcfc081e9702103188a29f99999bd65a79c1b5105a7c8c9bd45c9bfb35dbaf0",
+      "source_run": "unsafe:case-05:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-05",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "ad011e5e1603f9df1eae",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "675ad21d421d83b2d81bb4ef69b62625f0d8fdbd593f97134f8600fa87ffae5e",
+      "source_run": "unsafe:case-05:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-06",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "78e13841776cc5047043",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "8db82f9c3c2e379560965a26610bdf1c5892f1d8956aed6a3e0ac5046dfc22ba",
+      "source_run": "unsafe:case-06:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-06",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "970bd40d98f0b8c055b0",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "3c28d8b7d0c8131a43b0d52b93c09ac8fa2e40109463e7f0b44b4fe7b809cad2",
+      "source_run": "unsafe:case-06:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-06",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "709d21b82d698f6d866e",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "c47cde56eb83f68f6d44362bf22d01e0b613e3a361db62873508a34b533a1be8",
+      "source_run": "unsafe:case-06:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-07",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "0498fedbaba52d0ad1f8",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "428fdb31e16fce22f1a605380911013fc6d9acfdd501d345148a1905ad659a0b",
+      "source_run": "unsafe:case-07:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-07",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "1319e837e01f625c5e47",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "d37cb1f8bc1bf6ebdcd811cc293f766823fbff0bedf9450fe605360d1d80305c",
+      "source_run": "unsafe:case-07:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-07",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "e59a89cf76981f02713d",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "28fbea71831baad50849f22914160fb0c5daf00b81f57a7b4a2ba3fa580aa4cf",
+      "source_run": "unsafe:case-07:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-08",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "c3b74c8771ea2742ae2e",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "5f072697e1d232e3a6e2e358ccaee2d6b2a51d078a456d702ed26ff8d970f34e",
+      "source_run": "unsafe:case-08:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-08",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "185b58ea3b9c1c94f455",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "0168c9c124601031ef10f4252b9a76886eec67e9bd2050d69a2550de567d5c59",
+      "source_run": "unsafe:case-08:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-08",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "e24fef0d4b5a7b8f62dd",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "5ddc5cd84b92ba42c6c12f1d12768f79afb6dc7016fbdacebe13b862f3565a0b",
+      "source_run": "unsafe:case-08:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-09",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "8f94ede0a62b928b0b7b",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "023b7f97ed37d44ab57375d62dc5853c1617fff42c1b73bdda1b85d6089d883f",
+      "source_run": "unsafe:case-09:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-09",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "c7a6d8b528da6352e8d7",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "e856e7037e900374cff3ca8496a2efd08bbe7dcedf9569e113a6c2ba38e04122",
+      "source_run": "unsafe:case-09:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-09",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "959bdee192ed62da0b06",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "3f54211d529f719a07ed846c76343cfb5d4a30346d345769f126db388f49b472",
+      "source_run": "unsafe:case-09:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-10",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "79ed5b8a7c6a90aecd10",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "5e7644fe705ed22acd5d718046159b85bc68123ba50312279d91462536031c17",
+      "source_run": "unsafe:case-10:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-10",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "0fd43f144d9c03f09281",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "d3d6300531389e4b1edbaa47e8cfe6b4be24b8e73dffb5bdc2b9f710bfb72a05",
+      "source_run": "unsafe:case-10:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-10",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "a2141791f24c430e00f7",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "3a2738f071abefea1e941d3f985d835b6e1ca658ee60ceb782f29bddbac0825c",
+      "source_run": "unsafe:case-10:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-11",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "5c044e626acef894c5bb",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "e423473a764c48fafd5e2a993a688e5c0ecf88c5d1b8fc529644c9f74d4af2a7",
+      "source_run": "unsafe:case-11:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-11",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "85f489108052c15dd193",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "1522f0c1f79a868ae76722aab2ec6cbb967d58bb7c9e70fc40cac42e1ced85a7",
+      "source_run": "unsafe:case-11:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-11",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "db18029ba508bd58ad9a",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "ff950849f02e9c05b0627e6b6edf5070c3b364cd82592cb03aada0ef28186159",
+      "source_run": "unsafe:case-11:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-12",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "51a00de59c81128dc973",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "720ed60f335f13ddce13350450d353621cd85818feb3e14970e734fdc0e538c8",
+      "source_run": "unsafe:case-12:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-12",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "3d5a2d70bb310affe180",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "0bf1f9150d07730dc79e7d7f307bacfe08db5ca2f14482d281d33aa3de4ec6b2",
+      "source_run": "unsafe:case-12:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-12",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "32a4948620dbfc16a757",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "6eca0bb2c8b3b58af251686a6da729033f0bba0e11e9d7d51ab05e725ca2b051",
+      "source_run": "unsafe:case-12:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-13",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "29bb41e240d801545e2e",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "0c5511db4f0bda19af5f5e6396980bea5499321d5170350ca378402b2b12e80a",
+      "source_run": "unsafe:case-13:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-13",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "25db8084538f115e9351",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "a5c1c1d80884c1b65064e7b868c470d419315ababac7d39ddba3295469f934b7",
+      "source_run": "unsafe:case-13:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-13",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "d117ff6f31cb7b4ec14b",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "45fb182389d8b20361dd229fa7008d363318495fe159c2eaf561fad8331e58cc",
+      "source_run": "unsafe:case-13:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-14",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "693f6842aa4728b116fe",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "d817816275ce46ce810b83abf044d1ff0a810a71fe212f01bbbf437b7029442d",
+      "source_run": "unsafe:case-14:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-14",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "333945acdb9a150fe8cd",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "322e50db69df122e71bf8934a6053e54051608fcba308c6ed5014e186f357c8a",
+      "source_run": "unsafe:case-14:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-14",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "301b40e0f05bac4846de",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "8f12fb4971604181c057feb3590fe7a27283fc8032b86767e5cae2c0e9a52cdf",
+      "source_run": "unsafe:case-14:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-15",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "850e48e1f030c73af13b",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "8ee15765a175fb918e10d16de05d5585c56445bd8f35b22312287510a48d956f",
+      "source_run": "unsafe:case-15:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-15",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "db086e7fc1ad0ffdb572",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "c6d59d50f453d5328aac498ef1dc82c06e176e9e655fca8466c15cbe7991c01d",
+      "source_run": "unsafe:case-15:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-15",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "9d8824d6b1c0477412a2",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "558a3a55e5b01bbd4165eb7414a47ae28c2bc4a563d32033bfae4678cb54467f",
+      "source_run": "unsafe:case-15:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-16",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "1d0992e8d3ed34196bcc",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "0854777f91e38c263d9742a531868583d8dd4e3b15d0ecfae87c3eb155b4f210",
+      "source_run": "unsafe:case-16:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-16",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "d3d932cd090c449c80fc",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "e5f16cac99f0ab041e4d41fe8582471fd63f3b44cb2f3e902618ee868cf2e656",
+      "source_run": "unsafe:case-16:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-16",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "9592fc19becd4fea20b5",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "4fa74d0733b1451d42726c4ffc029333aeca963cd84ad363be702daaa4f56d91",
+      "source_run": "unsafe:case-16:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-17",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "60c43bb25a910d8d191b",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "09c83c8aa9f36af74927c024ee684311665dd5c14ef578f166a64fad9a46f124",
+      "source_run": "unsafe:case-17:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-17",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "f264831ab169064793f0",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "96c35e83a334be9c83ebf646c07e211640d972c7a54e4dd5068cf6e3c0add005",
+      "source_run": "unsafe:case-17:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-17",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "af82e829d6a2575aa9a6",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "c0e69b31f41ba1bb88f95aaf3ba2fbdf350bff401151e8f1f98d963fb52d008f",
+      "source_run": "unsafe:case-17:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-18",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "1f907bea3d44539bdf8c",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "3de5e0139ccb39dbb76d9c8bda1e74fd0c120e831c87bb22cdb9539f7e357385",
+      "source_run": "unsafe:case-18:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-18",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "69421a774ee017b7e6bc",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "c2586bb18d6e12e099c40a1d133adc16ed92091c68d5270ad5040cd09a1c04dc",
+      "source_run": "unsafe:case-18:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-18",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "c2a6f666d7a1fec8bd23",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "4ac5d3a016757c22ff8de1b2b8544e5c7e7d29e1d19d458629cde32871199cfa",
+      "source_run": "unsafe:case-18:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-19",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "21785b212128e212d4bb",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "594a2b3a0c851a6b3fe4a34dc6a0f36ad858c2325d33a2b551381cc6ad298a61",
+      "source_run": "unsafe:case-19:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-19",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "3d66cce7c6c8fec60f34",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "c9fbfa8b61dcd947a91352c798bd8c1ee8db632e72c89f1e02c2c8b81bb21ba1",
+      "source_run": "unsafe:case-19:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-19",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "314dce3d6ce31639c6ce",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "21861d0daefc4a7e0dd4e2efd069891484d1aef4dcfcece36283b56fe1949bee",
+      "source_run": "unsafe:case-19:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-20",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "e3a250d3f2431e7ed579",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "5face8d246ebed4a1c852a3294a8dd3b89db85cf2857a38d22a5855195939586",
+      "source_run": "unsafe:case-20:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-20",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "b6c63443c00fdef3221c",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "d09013925d5de451d4b89dd8bb8b817e976393332fb7609f3aea66b980e8890c",
+      "source_run": "unsafe:case-20:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-20",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "31b4516aeaf4c68d2eec",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "79ddf4fb2f7171743d9740b479de8851fcdfa5445f7bdc6533463797c264316b",
+      "source_run": "unsafe:case-20:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-21",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "358dad55fac323f39808",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "f8bd867c90f584133c9e22e4ae8241f735251f680321524bc881fe78341d3755",
+      "source_run": "unsafe:case-21:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-21",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "39cb1fff9cd8cf70de0f",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "e36abf60594d41fab9495c30b1ed6997ee876fe029de92d853f053b8869f96a5",
+      "source_run": "unsafe:case-21:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-21",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "233aa7a865bcf03da22d",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "98d517f52276803c272b1ff55a9a5a44431e0753fd56d2377128867e68aafa52",
+      "source_run": "unsafe:case-21:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-22",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "d492c946e00937122f88",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "04209e84331d5c51c61cf3d4193e5ba7a67875611dd6ba566c248d2752ff5723",
+      "source_run": "unsafe:case-22:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-22",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "30a7669d971b14af6735",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "3a43532beb6b7d0325ff47a13c9c8e2038f4d9e642e3a40e88c446070a03f600",
+      "source_run": "unsafe:case-22:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-22",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "91d7dd417702dc19e1d6",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "17e2c32b3fa325c4cb38fcf8772e1f4c461f5524941d10f382c90d34bd6e5cc1",
+      "source_run": "unsafe:case-22:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-23",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "ebdca48d5fe375b4e89d",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "66b8a34ce0ac84a629d2c7c8ced60e55e8f0047048f745ba2b8aab83c1de73d7",
+      "source_run": "unsafe:case-23:0:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-23",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "38a3d71f515ed7655fa6",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "e6eb63db78614a3e9d5d8349fa47ff67330d3bacc858a08df0a72c42d9f91633",
+      "source_run": "unsafe:case-23:1:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    },
+    {
+      "carrier": "unsafe",
+      "case_id": "case-23",
+      "expected_answer": null,
+      "failures": [
+        "authority",
+        "outcome"
+      ],
+      "holdout_mutation_allowed": false,
+      "id": "a1f89f501956a5ad2408",
+      "requires": "Independent label review, provenance check, then a new dataset version",
+      "source_assessment_hash": "a1275cc60c86b903998061fe2b56b43f3f88e096bd5c077bfc6392ebb236f673",
+      "source_run": "unsafe:case-23:2:ON",
+      "status": "QUARANTINED_PROPOSAL",
+      "target": "training-or-new-review-pool"
+    }
+  ],
+  "state": "NOT_MERGED"
+}

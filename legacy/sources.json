@@ -1,0 +1,75 @@
+[
+  {
+    "accessed": "2026-09-08",
+    "boundary": "Secondary compilation. Presentation slides, population statistics, vendor exclusivity and benchmark percentages were not independently verified. Section 6.1 diagram is missing in supplied text. Not redistributed.",
+    "id": "S0",
+    "locator": "粘贴的 markdown (1)。md(6)",
+    "sha256": "6926d8145b8738e3f953568d9aeda75942a568a30eb5108fd4287e18b5904680",
+    "title": "智能体评测指南大全：构建可观察、可评估、可进化的Agent质量体系",
+    "type": "user-supplied compilation"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S1",
+    "publisher": "Anthropic",
+    "relevance": "Tasks, repeated trials, graders, recorded trajectories and actual environment outcomes.",
+    "title": "Demystifying evals for AI agents",
+    "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S2",
+    "publisher": "OpenTelemetry",
+    "relevance": "Metadata-first instrumentation; content capture is a separate sensitive-data decision.",
+    "title": "Inside the LLM Call: GenAI Observability with OpenTelemetry",
+    "url": "https://opentelemetry.io/blog/2026/genai-observability/"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S3",
+    "publisher": "OpenTelemetry",
+    "relevance": "Version-pinned interoperability. PRAXIS implements only a documented OTLP/JSON import subset.",
+    "title": "OpenTelemetry GenAI Semantic Conventions repository",
+    "url": "https://github.com/open-telemetry/semantic-conventions-genai"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S4",
+    "publisher": "MLflow",
+    "relevance": "Domain-specific human labels and calibration, not universal oracle authority.",
+    "title": "Judge Alignment: Teaching AI to Match Human Preferences",
+    "url": "https://mlflow.org/docs/latest/genai/eval-monitor/scorers/llm-judge/alignment/"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S5",
+    "publisher": "Zheng et al., research paper",
+    "relevance": "Position, verbosity and self-enhancement biases; agreement is task-dependent.",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "url": "https://arxiv.org/abs/2306.05685"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S6",
+    "publisher": "NIST",
+    "relevance": "Wilson score intervals; zero observed failures is not a zero population failure bound.",
+    "title": "Proportion Confidence Limits",
+    "url": "https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/propconf.htm"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S7",
+    "publisher": "Huang, research paper",
+    "relevance": "Resampling at the cluster level for nested observations. PRAXIS uses an explicitly documented simple percentile estimator.",
+    "title": "Using Cluster Bootstrapping to Analyze Nested Data With a Few Clusters",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5965657/"
+  },
+  {
+    "accessed": "2026-09-08",
+    "id": "S8",
+    "locator": "Native-semantic continuity notes, multi-record DIKWP and external-domain boundary",
+    "publisher": "Yucong Duan and Feng Wang, user-supplied research manuscript",
+    "relevance": "Design inspiration for typed records, concrete routes, visible differences and replay; not independent validation of this implementation.",
+    "title": "A New Mathematical History of the Universe / 宇宙的数学新史"
+  }
+]

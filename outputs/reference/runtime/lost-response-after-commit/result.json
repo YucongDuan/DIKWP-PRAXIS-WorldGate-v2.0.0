@@ -1,0 +1,22 @@
+{
+  "case": "lost-response-after-commit",
+  "events": 6,
+  "expected": "RECOVERED_WITHOUT_REPEAT",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 1,
+      "tenant": "demo",
+      "units": 97
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "RECOVERED_WITHOUT_REPEAT",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

@@ -1,0 +1,10 @@
+{
+  "expires_at": 1140,
+  "issued_at": 1020,
+  "kind": "revoke",
+  "nonce": "revoke-1",
+  "reason": "Synthetic adverse monitor: 69b2aec8aeda7804c759d147feb553fc638ed4efaab9d403ec4dab24c60dffcb",
+  "target": "3d45b04a542544d71c93c5ecb0e7e7fc1a062ea9be99c52a0b474615b2030b74",
+  "target_kind": "evidence",
+  "tenant": "demo"
+}

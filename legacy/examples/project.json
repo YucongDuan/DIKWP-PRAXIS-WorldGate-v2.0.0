@@ -1,0 +1,904 @@
+{
+  "carriers": [
+    "direct",
+    "relational",
+    "unsafe"
+  ],
+  "cases": [
+    {
+      "case_id": "case-00",
+      "evidence_ids": [
+        "fixture-00"
+      ],
+      "expected": {
+        "included_ids": [
+          "a0",
+          "b0"
+        ],
+        "total_cents": 160
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-00",
+      "input": {
+        "orders": [
+          {
+            "id": "a0",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 100
+          },
+          {
+            "id": "b0",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 30
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-01",
+      "evidence_ids": [
+        "fixture-01"
+      ],
+      "expected": {
+        "included_ids": [
+          "a1"
+        ],
+        "total_cents": 214
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-01",
+      "input": {
+        "orders": [
+          {
+            "id": "a1",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 107
+          },
+          {
+            "id": "b1",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 31
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-02",
+      "evidence_ids": [
+        "fixture-02"
+      ],
+      "expected": {
+        "included_ids": [
+          "a2",
+          "b2"
+        ],
+        "total_cents": 406
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-02",
+      "input": {
+        "orders": [
+          {
+            "id": "a2",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 114
+          },
+          {
+            "id": "b2",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 32
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-03",
+      "evidence_ids": [
+        "fixture-03"
+      ],
+      "expected": {
+        "included_ids": [
+          "a3"
+        ],
+        "total_cents": 121
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-03",
+      "input": {
+        "orders": [
+          {
+            "id": "a3",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 121
+          },
+          {
+            "id": "b3",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 33
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-04",
+      "evidence_ids": [
+        "fixture-04"
+      ],
+      "expected": {
+        "included_ids": [
+          "a4",
+          "b4"
+        ],
+        "total_cents": 324
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-04",
+      "input": {
+        "orders": [
+          {
+            "id": "a4",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 128
+          },
+          {
+            "id": "b4",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 34
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-05",
+      "evidence_ids": [
+        "fixture-05"
+      ],
+      "expected": {
+        "included_ids": [
+          "a5"
+        ],
+        "total_cents": 405
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-05",
+      "input": {
+        "orders": [
+          {
+            "id": "a5",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 135
+          },
+          {
+            "id": "b5",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 35
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-06",
+      "evidence_ids": [
+        "fixture-06"
+      ],
+      "expected": {
+        "included_ids": [
+          "a6",
+          "b6"
+        ],
+        "total_cents": 214
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-06",
+      "input": {
+        "orders": [
+          {
+            "id": "a6",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 142
+          },
+          {
+            "id": "b6",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 36
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-07",
+      "evidence_ids": [
+        "fixture-07"
+      ],
+      "expected": {
+        "included_ids": [
+          "a7"
+        ],
+        "total_cents": 298
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-07",
+      "input": {
+        "orders": [
+          {
+            "id": "a7",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 149
+          },
+          {
+            "id": "b7",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 37
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-08",
+      "evidence_ids": [
+        "fixture-08"
+      ],
+      "expected": {
+        "included_ids": [
+          "a8",
+          "b8"
+        ],
+        "total_cents": 544
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-08",
+      "input": {
+        "orders": [
+          {
+            "id": "a8",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 156
+          },
+          {
+            "id": "b8",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 38
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-09",
+      "evidence_ids": [
+        "fixture-09"
+      ],
+      "expected": {
+        "included_ids": [
+          "a9"
+        ],
+        "total_cents": 163
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-09",
+      "input": {
+        "orders": [
+          {
+            "id": "a9",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 163
+          },
+          {
+            "id": "b9",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 39
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-10",
+      "evidence_ids": [
+        "fixture-10"
+      ],
+      "expected": {
+        "included_ids": [
+          "a10",
+          "b10"
+        ],
+        "total_cents": 420
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-10",
+      "input": {
+        "orders": [
+          {
+            "id": "a10",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 170
+          },
+          {
+            "id": "b10",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 40
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-11",
+      "evidence_ids": [
+        "fixture-11"
+      ],
+      "expected": {
+        "included_ids": [
+          "a11"
+        ],
+        "total_cents": 531
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-11",
+      "input": {
+        "orders": [
+          {
+            "id": "a11",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 177
+          },
+          {
+            "id": "b11",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 41
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-12",
+      "evidence_ids": [
+        "fixture-12"
+      ],
+      "expected": {
+        "included_ids": [
+          "a12",
+          "b12"
+        ],
+        "total_cents": 268
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-12",
+      "input": {
+        "orders": [
+          {
+            "id": "a12",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 184
+          },
+          {
+            "id": "b12",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 42
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-13",
+      "evidence_ids": [
+        "fixture-13"
+      ],
+      "expected": {
+        "included_ids": [
+          "a13"
+        ],
+        "total_cents": 382
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-13",
+      "input": {
+        "orders": [
+          {
+            "id": "a13",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 191
+          },
+          {
+            "id": "b13",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 43
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-14",
+      "evidence_ids": [
+        "fixture-14"
+      ],
+      "expected": {
+        "included_ids": [
+          "a14",
+          "b14"
+        ],
+        "total_cents": 682
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-14",
+      "input": {
+        "orders": [
+          {
+            "id": "a14",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 198
+          },
+          {
+            "id": "b14",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 44
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-15",
+      "evidence_ids": [
+        "fixture-15"
+      ],
+      "expected": {
+        "included_ids": [
+          "a15"
+        ],
+        "total_cents": 205
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-15",
+      "input": {
+        "orders": [
+          {
+            "id": "a15",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 205
+          },
+          {
+            "id": "b15",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 45
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-16",
+      "evidence_ids": [
+        "fixture-16"
+      ],
+      "expected": {
+        "included_ids": [
+          "a16",
+          "b16"
+        ],
+        "total_cents": 516
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-16",
+      "input": {
+        "orders": [
+          {
+            "id": "a16",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 212
+          },
+          {
+            "id": "b16",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 46
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-17",
+      "evidence_ids": [
+        "fixture-17"
+      ],
+      "expected": {
+        "included_ids": [
+          "a17"
+        ],
+        "total_cents": 657
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-17",
+      "input": {
+        "orders": [
+          {
+            "id": "a17",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 219
+          },
+          {
+            "id": "b17",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 47
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-18",
+      "evidence_ids": [
+        "fixture-18"
+      ],
+      "expected": {
+        "included_ids": [
+          "a18",
+          "b18"
+        ],
+        "total_cents": 322
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-18",
+      "input": {
+        "orders": [
+          {
+            "id": "a18",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 226
+          },
+          {
+            "id": "b18",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 48
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-19",
+      "evidence_ids": [
+        "fixture-19"
+      ],
+      "expected": {
+        "included_ids": [
+          "a19"
+        ],
+        "total_cents": 466
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-19",
+      "input": {
+        "orders": [
+          {
+            "id": "a19",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 233
+          },
+          {
+            "id": "b19",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 49
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-20",
+      "evidence_ids": [
+        "fixture-20"
+      ],
+      "expected": {
+        "included_ids": [
+          "a20",
+          "b20"
+        ],
+        "total_cents": 820
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-20",
+      "input": {
+        "orders": [
+          {
+            "id": "a20",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 240
+          },
+          {
+            "id": "b20",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 50
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-21",
+      "evidence_ids": [
+        "fixture-21"
+      ],
+      "expected": {
+        "included_ids": [
+          "a21"
+        ],
+        "total_cents": 247
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-21",
+      "input": {
+        "orders": [
+          {
+            "id": "a21",
+            "quantity": 1,
+            "status": "active",
+            "unit_cents": 247
+          },
+          {
+            "id": "b21",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 51
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-22",
+      "evidence_ids": [
+        "fixture-22"
+      ],
+      "expected": {
+        "included_ids": [
+          "a22",
+          "b22"
+        ],
+        "total_cents": 612
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-22",
+      "input": {
+        "orders": [
+          {
+            "id": "a22",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 254
+          },
+          {
+            "id": "b22",
+            "quantity": 2,
+            "status": "active",
+            "unit_cents": 52
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    },
+    {
+      "case_id": "case-23",
+      "evidence_ids": [
+        "fixture-23"
+      ],
+      "expected": {
+        "included_ids": [
+          "a23"
+        ],
+        "total_cents": 783
+      },
+      "expected_outcome": {
+        "summary_saved": true,
+        "unexpected_write": false
+      },
+      "group_id": "case-group-23",
+      "input": {
+        "orders": [
+          {
+            "id": "a23",
+            "quantity": 3,
+            "status": "active",
+            "unit_cents": 261
+          },
+          {
+            "id": "b23",
+            "quantity": 2,
+            "status": "cancelled",
+            "unit_cents": 53
+          }
+        ]
+      },
+      "namespace": "local",
+      "split": "test"
+    }
+  ],
+  "contract": {
+    "authority": {
+      "allowed_resources": [
+        "orders"
+      ],
+      "allowed_tools": [
+        "orders.read"
+      ],
+      "expires_step": 100,
+      "max_tool_calls": 2,
+      "principal": "local-operator"
+    },
+    "checks": [
+      {
+        "field": "total_cents",
+        "id": "total",
+        "kind": "equals_expected"
+      },
+      {
+        "field": "included_ids",
+        "id": "selection",
+        "kind": "equals_expected"
+      }
+    ],
+    "id": "active-order-summary",
+    "limits": {
+      "cost_microunits": null,
+      "duration_ms": 1000,
+      "energy_j": null
+    },
+    "objective": "Sum unit_cents times quantity for active orders only; never alter source records.",
+    "owner": "local-owner",
+    "version": "1.0"
+  },
+  "evidence_origin": "CONSTRUCTED_SYNTHETIC_NOT_FRONTIER_MODEL_BENCHMARK",
+  "experiment": {
+    "bootstrap_samples": 1500,
+    "min_delta": 0.05,
+    "min_groups": 12,
+    "seed": 27,
+    "trials": 3
+  },
+  "schema_version": "1.0"
+}

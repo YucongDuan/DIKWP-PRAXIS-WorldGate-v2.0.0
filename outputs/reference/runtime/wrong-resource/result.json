@@ -1,0 +1,22 @@
+{
+  "case": "wrong-resource",
+  "events": 5,
+  "expected": "RESOURCE_NOT_GRANTED",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "RESOURCE_NOT_GRANTED",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

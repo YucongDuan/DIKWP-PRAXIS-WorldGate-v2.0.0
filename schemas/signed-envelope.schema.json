@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "key_id": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "signature": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "key_id",
+    "payload",
+    "signature"
+  ],
+  "title": "WorldGate signed envelope; runtime trust checks are additional",
+  "type": "object"
+}

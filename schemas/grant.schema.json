@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "actor": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "candidate_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "contract_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "evidence_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "expires_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "grant_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "issued_at": {
+      "maximum": 1099511627776,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "kind": {
+      "const": "grant"
+    },
+    "max_calls": {
+      "maximum": 1099511627776,
+      "minimum": 1,
+      "type": "integer"
+    },
+    "max_total_units": {
+      "maximum": 1099511627776,
+      "minimum": 1,
+      "type": "integer"
+    },
+    "operation": {
+      "const": "inventory.reserve"
+    },
+    "resources": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "tenant": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "actor",
+    "candidate_hash",
+    "contract_hash",
+    "evidence_hash",
+    "expires_at",
+    "grant_id",
+    "issued_at",
+    "kind",
+    "max_calls",
+    "max_total_units",
+    "operation",
+    "resources",
+    "tenant"
+  ],
+  "title": "WorldGate grant payload; runtime remains authoritative",
+  "type": "object"
+}

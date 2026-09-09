@@ -1,0 +1,1674 @@
+{
+  "delivery": {
+    "before_send": "RETRY_AUTHORIZATION_REQUIRED",
+    "boundary": "Two local SQLite databases, not a network/payment adapter or distributed exactly-once guarantee.",
+    "false_success": "RETRY_AUTHORIZATION_REQUIRED",
+    "jobs": [
+      {
+        "body": {
+          "id": "before-send",
+          "units": 2
+        },
+        "hash": "9b4efc2baa682f18cf1a1f83536c6ee3dc4d954a5fe8ec9cea76c3e06a314aa8",
+        "state": "RETRY_AUTHORIZATION_REQUIRED"
+      },
+      {
+        "body": {
+          "id": "false-success",
+          "units": 4
+        },
+        "hash": "d650691daa3dcacda19960f3ccaeb3738de6da2900455a59abd6f0400af9fac0",
+        "state": "RETRY_AUTHORIZATION_REQUIRED"
+      },
+      {
+        "body": {
+          "id": "lost-response",
+          "units": 7
+        },
+        "hash": "65abe28664e99364bede33d63089245881272ef6e04f3ee4f9c0338b14ea6e32",
+        "state": "VERIFIED_PROVIDER_EFFECT"
+      }
+    ],
+    "provider_effects": 1,
+    "provider_remaining_units": 93,
+    "recovered": "VERIFIED_PROVIDER_EFFECT",
+    "repeat_denied": "NO_BLIND_REDELIVERY",
+    "unavailable_status": "OUTCOME_UNKNOWN"
+  },
+  "edition": "WORLDGATE",
+  "environment": {
+    "python": "3.13.5",
+    "sqlite": "3.46.1"
+  },
+  "feedback": {
+    "approval_source": "ephemeral synthetic operator key, not a real human",
+    "next_action": "GRANT_REVOKED_OR_UNKNOWN",
+    "operator_authorized_revocation": {
+      "affected_grants": [
+        "grant-1"
+      ],
+      "historical_effects_erased": false,
+      "state": "REVOKED"
+    },
+    "proposal_generated": true,
+    "replay": {
+      "authenticated_anchor_checked": true,
+      "chain_valid": true,
+      "commands_reexecuted": 4,
+      "events": 6,
+      "external_trust_pinned": true,
+      "hash_only_denials_not_reexecuted": 1,
+      "limits": [
+        "Not a fresh agent run.",
+        "Denials retain hashes, so their original inputs are not replayed.",
+        "Retain the latest public trust root and signed anchor independently to detect wholesale rollback."
+      ],
+      "signature_valid": true,
+      "state": "RECORDED_COMMAND_REPLAY_MATCH",
+      "tail": "e4b41ca7bc3bd6959767a0f0a84241306cdebc474400619e07cca84a20472d17"
+    }
+  },
+  "legacy": {
+    "output": "outputs/reference/legacy_v1",
+    "replay": "RECOMPUTED_MATCH",
+    "runs": 432,
+    "workflow_verified": true
+  },
+  "limits": [
+    "Synthetic local cases, not frontier model benchmarks.",
+    "No real network, payment or production deployment.",
+    "One real adapter: local inventory.reserve.",
+    "Signatures authenticate configured keys, not human identity or evidence truth.",
+    "No OS sandbox or distributed exactly-once guarantee."
+  ],
+  "monitors": {
+    "adverse": {
+      "assumptions": [
+        "Configuration and alternative mixture fixed before data.",
+        "Under H0, P(failure in group g | past) <= p0.",
+        "Declared family size covers all streams; no post-hoc exclusions.",
+        "Group labels do not establish representativeness."
+      ],
+      "config": {
+        "alternatives": [
+          0.1,
+          0.2,
+          0.4,
+          0.7
+        ],
+        "family_alpha": 0.05,
+        "family_size": 2,
+        "monitor_id": "risk-example",
+        "p0": 0.05,
+        "protocol_hash": "358d12b3df91f6d9bd9344ce8ebbc04d756e59bbca12ffa2d524a1cccdde10d2"
+      },
+      "config_hash": "c64880cddf21461489b87679209ba44b24f41b140c2b0ac5e6f9e71a4f0b7404",
+      "first_alarm_at": 15,
+      "limits": [
+        "Pending outcomes block the ordered prefix rather than disappear.",
+        "No rejection is not proof of safety.",
+        "Critical incidents can suspend actions without waiting for significance.",
+        "No automatic connection from this calculator to production permissions."
+      ],
+      "processed_ordered_groups": 25,
+      "series": [
+        {
+          "crossed": false,
+          "e_value_capped": 0.6842105263157895,
+          "failed": false,
+          "group_id": "g-0",
+          "log_e": -0.37948962170490375,
+          "sequence": 1
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.5263157894736844,
+          "failed": false,
+          "group_id": "g-1",
+          "log_e": -0.6418538861723945,
+          "sequence": 2
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.43271613937891834,
+          "failed": false,
+          "group_id": "g-2",
+          "log_e": -0.83767333321205,
+          "sequence": 3
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.3693648759601293,
+          "failed": false,
+          "group_id": "g-3",
+          "log_e": -0.9959702997655739,
+          "sequence": 4
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.32255899299664526,
+          "failed": false,
+          "group_id": "g-4",
+          "log_e": -1.131469235454263,
+          "sequence": 5
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.28600846054939444,
+          "failed": false,
+          "group_id": "g-5",
+          "log_e": -1.2517338862592933,
+          "sequence": 6
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.25640346148140175,
+          "failed": false,
+          "group_id": "g-6",
+          "log_e": -1.361003053709271,
+          "sequence": 7
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.23179160265113663,
+          "failed": false,
+          "group_id": "g-7",
+          "log_e": -1.4619165754318402,
+          "sequence": 8
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.2109226870328783,
+          "failed": false,
+          "group_id": "g-8",
+          "log_e": -1.5562636248178643,
+          "sequence": 9
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.19294998968487706,
+          "failed": false,
+          "group_id": "g-9",
+          "log_e": -1.6453242444585934,
+          "sequence": 10
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.49074524310085516,
+          "failed": true,
+          "group_id": "g-10",
+          "log_e": -0.711830138993574,
+          "sequence": 11
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 1.4617611408998894,
+          "failed": true,
+          "group_id": "g-11",
+          "log_e": 0.37964196966244645,
+          "sequence": 12
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 5.333496905773183,
+          "failed": true,
+          "group_id": "g-12",
+          "log_e": 1.6740071029338337,
+          "sequence": 13
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 24.24288124675233,
+          "failed": true,
+          "group_id": "g-13",
+          "log_e": 3.1881230174522948,
+          "sequence": 14
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 134.62516431896327,
+          "failed": true,
+          "group_id": "g-14",
+          "log_e": 4.90249435604378,
+          "sequence": 15
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 873.3659205987415,
+          "failed": true,
+          "group_id": "g-15",
+          "log_e": 6.7723546210535766,
+          "sequence": 16
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 6307.854438059211,
+          "failed": true,
+          "group_id": "g-16",
+          "log_e": 8.749550872049275,
+          "sequence": 17
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 48972.23002016588,
+          "failed": true,
+          "group_id": "g-17",
+          "log_e": 10.79900868215586,
+          "sequence": 18
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 401633.2756116649,
+          "failed": true,
+          "group_id": "g-18",
+          "log_e": 12.903294701525923,
+          "sequence": 19
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 3471254.450662554,
+          "failed": true,
+          "group_id": "g-19",
+          "log_e": 15.060026599752142,
+          "sequence": 20
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 31860152.645011526,
+          "failed": true,
+          "group_id": "g-20",
+          "log_e": 17.27686665355245,
+          "sequence": 21
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 314034052.1139844,
+          "failed": true,
+          "group_id": "g-21",
+          "log_e": 19.56501198421554,
+          "sequence": 22
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 3347955351.8624296,
+          "failed": true,
+          "group_id": "g-22",
+          "log_e": 21.931615653720808,
+          "sequence": 23
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 38513334174.60027,
+          "failed": true,
+          "group_id": "g-23",
+          "log_e": 24.374270360474945,
+          "sequence": 24
+        },
+        {
+          "crossed": true,
+          "e_value_capped": 472442787642.20276,
+          "failed": true,
+          "group_id": "g-24",
+          "log_e": 26.88118249219378,
+          "sequence": 25
+        }
+      ],
+      "state": "RISK_BOUND_REJECTED",
+      "submitted_groups": 25,
+      "threshold": 40.0
+    },
+    "clean": {
+      "assumptions": [
+        "Configuration and alternative mixture fixed before data.",
+        "Under H0, P(failure in group g | past) <= p0.",
+        "Declared family size covers all streams; no post-hoc exclusions.",
+        "Group labels do not establish representativeness."
+      ],
+      "config": {
+        "alternatives": [
+          0.1,
+          0.2,
+          0.4,
+          0.7
+        ],
+        "family_alpha": 0.05,
+        "family_size": 2,
+        "monitor_id": "risk-example",
+        "p0": 0.05,
+        "protocol_hash": "358d12b3df91f6d9bd9344ce8ebbc04d756e59bbca12ffa2d524a1cccdde10d2"
+      },
+      "config_hash": "c64880cddf21461489b87679209ba44b24f41b140c2b0ac5e6f9e71a4f0b7404",
+      "first_alarm_at": null,
+      "limits": [
+        "Pending outcomes block the ordered prefix rather than disappear.",
+        "No rejection is not proof of safety.",
+        "Critical incidents can suspend actions without waiting for significance.",
+        "No automatic connection from this calculator to production permissions."
+      ],
+      "processed_ordered_groups": 25,
+      "series": [
+        {
+          "crossed": false,
+          "e_value_capped": 0.6842105263157895,
+          "failed": false,
+          "group_id": "g-0",
+          "log_e": -0.37948962170490375,
+          "sequence": 1
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.5263157894736844,
+          "failed": false,
+          "group_id": "g-1",
+          "log_e": -0.6418538861723945,
+          "sequence": 2
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.43271613937891834,
+          "failed": false,
+          "group_id": "g-2",
+          "log_e": -0.83767333321205,
+          "sequence": 3
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.3693648759601293,
+          "failed": false,
+          "group_id": "g-3",
+          "log_e": -0.9959702997655739,
+          "sequence": 4
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.32255899299664526,
+          "failed": false,
+          "group_id": "g-4",
+          "log_e": -1.131469235454263,
+          "sequence": 5
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.28600846054939444,
+          "failed": false,
+          "group_id": "g-5",
+          "log_e": -1.2517338862592933,
+          "sequence": 6
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.25640346148140175,
+          "failed": false,
+          "group_id": "g-6",
+          "log_e": -1.361003053709271,
+          "sequence": 7
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.23179160265113663,
+          "failed": false,
+          "group_id": "g-7",
+          "log_e": -1.4619165754318402,
+          "sequence": 8
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.2109226870328783,
+          "failed": false,
+          "group_id": "g-8",
+          "log_e": -1.5562636248178643,
+          "sequence": 9
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.19294998968487706,
+          "failed": false,
+          "group_id": "g-9",
+          "log_e": -1.6453242444585934,
+          "sequence": 10
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.17727655529456246,
+          "failed": false,
+          "group_id": "g-10",
+          "log_e": -1.7300443064865347,
+          "sequence": 11
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.16346799803550283,
+          "failed": false,
+          "group_id": "g-11",
+          "log_e": -1.811138038472284,
+          "sequence": 12
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.1511995622257196,
+          "failed": false,
+          "group_id": "g-12",
+          "log_e": -1.8891547105734383,
+          "sequence": 13
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.14022253080698893,
+          "failed": false,
+          "group_id": "g-13",
+          "log_e": -1.9645246125358633,
+          "sequence": 14
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.13034225978855335,
+          "failed": false,
+          "group_id": "g-14",
+          "log_e": -2.037591520583934,
+          "sequence": 15
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.12140347715487732,
+          "failed": false,
+          "group_id": "g-15",
+          "log_e": -2.1086357586344846,
+          "sequence": 16
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.11328023720734215,
+          "failed": false,
+          "group_id": "g-16",
+          "log_e": -2.177890555047552,
+          "sequence": 17
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.1058689140433539,
+          "failed": false,
+          "group_id": "g-17",
+          "log_e": -2.245553610133373,
+          "sequence": 18
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.09908321111835589,
+          "failed": false,
+          "group_id": "g-18",
+          "log_e": -2.311795265536575,
+          "sequence": 19
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.09285052977908356,
+          "failed": false,
+          "group_id": "g-19",
+          "log_e": -2.3767642854475883,
+          "sequence": 20
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.08710926963705976,
+          "failed": false,
+          "group_id": "g-20",
+          "log_e": -2.4405919755618757,
+          "sequence": 21
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.08180677990436078,
+          "failed": false,
+          "group_id": "g-21",
+          "log_e": -2.503395154891727,
+          "sequence": 22
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.07689777464795772,
+          "failed": false,
+          "group_id": "g-22",
+          "log_e": -2.5652783411472853,
+          "sequence": 23
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.07234308561144025,
+          "failed": false,
+          "group_id": "g-23",
+          "log_e": -2.6263353990764484,
+          "sequence": 24
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.06810866585022735,
+          "failed": false,
+          "group_id": "g-24",
+          "log_e": -2.6866508220836245,
+          "sequence": 25
+        }
+      ],
+      "state": "NO_REJECTION_NOT_A_SAFETY_CERTIFICATE",
+      "submitted_groups": 25,
+      "threshold": 40.0
+    },
+    "delayed": {
+      "assumptions": [
+        "Configuration and alternative mixture fixed before data.",
+        "Under H0, P(failure in group g | past) <= p0.",
+        "Declared family size covers all streams; no post-hoc exclusions.",
+        "Group labels do not establish representativeness."
+      ],
+      "config": {
+        "alternatives": [
+          0.1,
+          0.2,
+          0.4,
+          0.7
+        ],
+        "family_alpha": 0.05,
+        "family_size": 2,
+        "monitor_id": "risk-example",
+        "p0": 0.05,
+        "protocol_hash": "358d12b3df91f6d9bd9344ce8ebbc04d756e59bbca12ffa2d524a1cccdde10d2"
+      },
+      "config_hash": "c64880cddf21461489b87679209ba44b24f41b140c2b0ac5e6f9e71a4f0b7404",
+      "first_alarm_at": null,
+      "limits": [
+        "Pending outcomes block the ordered prefix rather than disappear.",
+        "No rejection is not proof of safety.",
+        "Critical incidents can suspend actions without waiting for significance.",
+        "No automatic connection from this calculator to production permissions."
+      ],
+      "processed_ordered_groups": 5,
+      "series": [
+        {
+          "crossed": false,
+          "e_value_capped": 0.6842105263157895,
+          "failed": false,
+          "group_id": "g-0",
+          "log_e": -0.37948962170490375,
+          "sequence": 1
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.5263157894736844,
+          "failed": false,
+          "group_id": "g-1",
+          "log_e": -0.6418538861723945,
+          "sequence": 2
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.43271613937891834,
+          "failed": false,
+          "group_id": "g-2",
+          "log_e": -0.83767333321205,
+          "sequence": 3
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.3693648759601293,
+          "failed": false,
+          "group_id": "g-3",
+          "log_e": -0.9959702997655739,
+          "sequence": 4
+        },
+        {
+          "crossed": false,
+          "e_value_capped": 0.32255899299664526,
+          "failed": false,
+          "group_id": "g-4",
+          "log_e": -1.131469235454263,
+          "sequence": 5
+        }
+      ],
+      "state": "AWAITING_ORDERED_OUTCOME",
+      "submitted_groups": 25,
+      "threshold": 40.0
+    }
+  },
+  "repair": {
+    "counterexample": {
+      "evaluations": 5,
+      "items": [
+        {
+          "active": false,
+          "amount": 11
+        }
+      ],
+      "state": "DELETION_MINIMAL_WITHIN_GIVEN_PREDICATE"
+    },
+    "deployed": false,
+    "development": [
+      {
+        "candidate_hash": "f241456922c2de835b25d6f8f8d2d4c77b171a7495f4280736567009b208ecc5",
+        "correct": 15,
+        "policy": {
+          "ignore_untrusted_text": false,
+          "respect_floor": false,
+          "strict_integer": false
+        },
+        "total": 36
+      },
+      {
+        "candidate_hash": "52d49705a5b37e72cf2f1e4e6981179ba318d7e18951efd91bb191622cc303ab",
+        "correct": 20,
+        "policy": {
+          "ignore_untrusted_text": true,
+          "respect_floor": false,
+          "strict_integer": false
+        },
+        "total": 36
+      },
+      {
+        "candidate_hash": "d809d6573b87bd8e33da4308c894e3c50ee3a259af4e8417daad6e3e21f8cc49",
+        "correct": 24,
+        "policy": {
+          "ignore_untrusted_text": false,
+          "respect_floor": true,
+          "strict_integer": false
+        },
+        "total": 36
+      },
+      {
+        "candidate_hash": "42f99ce6ba35614a0e970f975b90216ae59113c749005853df3506f3051c5637",
+        "correct": 24,
+        "policy": {
+          "ignore_untrusted_text": true,
+          "respect_floor": true,
+          "strict_integer": false
+        },
+        "total": 36
+      },
+      {
+        "candidate_hash": "16d2515ec2704d1eca58490c58fe9d0814091aa52fa293c0462176ce1fcdd94c",
+        "correct": 25,
+        "policy": {
+          "ignore_untrusted_text": false,
+          "respect_floor": false,
+          "strict_integer": true
+        },
+        "total": 36
+      },
+      {
+        "candidate_hash": "2ccb4e25fd0aa2c3c6f91f4aaf7dead3b8aa72e7e6fa948dc72b638dc87e03d7",
+        "correct": 32,
+        "policy": {
+          "ignore_untrusted_text": true,
+          "respect_floor": false,
+          "strict_integer": true
+        },
+        "total": 36
+      },
+      {
+        "candidate_hash": "332bf677b9a34dcd06089ae5b37c3f4cd22698e49f6b159a2465bec581da8497",
+        "correct": 34,
+        "policy": {
+          "ignore_untrusted_text": false,
+          "respect_floor": true,
+          "strict_integer": true
+        },
+        "total": 36
+      },
+      {
+        "candidate_hash": "9386c39f8aa8a94d3ad09d016dbff90f794650f1a9c93edc4467e1b898eddddd",
+        "correct": 36,
+        "policy": {
+          "ignore_untrusted_text": true,
+          "respect_floor": true,
+          "strict_integer": true
+        },
+        "total": 36
+      }
+    ],
+    "development_executions": 288,
+    "holdout_correct": 36,
+    "holdout_executions": 36,
+    "holdout_results": [
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 1
+        },
+        "case_id": "c-97-0",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 1
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-1",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 4
+        },
+        "case_id": "c-97-2",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 4
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-3",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-4",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-5",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-6",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-7",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-8",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 1
+        },
+        "case_id": "c-97-9",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 1
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-10",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 7
+        },
+        "case_id": "c-97-11",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 7
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-12",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-13",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-14",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-15",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-16",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-17",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 1
+        },
+        "case_id": "c-97-18",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 1
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-19",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 1
+        },
+        "case_id": "c-97-20",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 1
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-21",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-22",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-23",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-24",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-25",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-26",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 1
+        },
+        "case_id": "c-97-27",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 1
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-28",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "PROPOSE",
+          "units": 1
+        },
+        "case_id": "c-97-29",
+        "expected": {
+          "decision": "PROPOSE",
+          "units": 1
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-30",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-31",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-32",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-33",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-34",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      },
+      {
+        "actual": {
+          "decision": "HOLD",
+          "units": 0
+        },
+        "case_id": "c-97-35",
+        "expected": {
+          "decision": "HOLD",
+          "units": 0
+        }
+      }
+    ],
+    "holdout_ticket": {
+      "candidate_hash": "9386c39f8aa8a94d3ad09d016dbff90f794650f1a9c93edc4467e1b898eddddd",
+      "family": "reservation-rule-family",
+      "holdout_hash": "a0b5e2251630f0df07f8a3163ed5cfc4339c02d41e67827c4cbf249e75e469d3",
+      "state": "CONSUMED_BEFORE_EVALUATION"
+    },
+    "holdout_total": 36,
+    "limits": [
+      "Three predefined Boolean rules; not general autonomous self-improvement.",
+      "Public synthetic holdout, not a hidden benchmark.",
+      "Deleting or copying the trusted local budget DB defeats the local one-use policy.",
+      "No test-label edit, grant creation or external deployment."
+    ],
+    "repeat_attempt": "HOLDOUT_REUSE_BLOCKED",
+    "selected": {
+      "candidate_hash": "9386c39f8aa8a94d3ad09d016dbff90f794650f1a9c93edc4467e1b898eddddd",
+      "correct": 36,
+      "policy": {
+        "ignore_untrusted_text": true,
+        "respect_floor": true,
+        "strict_integer": true
+      },
+      "total": 36
+    }
+  },
+  "runtime": {
+    "cases": 23,
+    "clock": "Synthetic epoch=1000; ephemeral role keys are not real human approvals.",
+    "concurrency_results": {
+      "COMMITTED_PENDING_OBSERVATION": 1,
+      "GRANT_BUDGET_EXHAUSTED": 23
+    },
+    "passed": 23,
+    "scenarios": [
+      {
+        "case": "verified-and-compensated",
+        "events": 8,
+        "expected": "COMPENSATED",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 2,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "COMPENSATED",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "tampered-signature",
+        "events": 5,
+        "expected": "BAD_SIGNATURE",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "BAD_SIGNATURE",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "wrong-candidate",
+        "events": 5,
+        "expected": "ACTION_BINDING",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "ACTION_BINDING",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "wrong-tenant",
+        "events": 5,
+        "expected": "UNTRUSTED_ROLE_OR_TENANT",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "UNTRUSTED_ROLE_OR_TENANT",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "wrong-resource",
+        "events": 5,
+        "expected": "RESOURCE_NOT_GRANTED",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "RESOURCE_NOT_GRANTED",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "negative-units",
+        "events": 5,
+        "expected": "INTEGER_RANGE",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "INTEGER_RANGE",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "boolean-units",
+        "events": 5,
+        "expected": "INTEGER_RANGE",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "INTEGER_RANGE",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "floating-units",
+        "events": 5,
+        "expected": "INTEGER_RANGE",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "INTEGER_RANGE",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "stale-revision",
+        "events": 5,
+        "expected": "STALE_WORLD_REVISION",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "STALE_WORLD_REVISION",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "unknown-operation",
+        "events": 5,
+        "expected": "ACTION_KIND",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "ACTION_KIND",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "prompt-as-authority",
+        "events": 5,
+        "expected": "SCHEMA_FIELDS",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "SCHEMA_FIELDS",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "expired-at-prepare",
+        "events": 5,
+        "expected": "TIME_WINDOW",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "TIME_WINDOW",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "expiry-between-phases",
+        "events": 6,
+        "expected": "TIME_WINDOW",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "TIME_WINDOW",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "grant-revoked-between-phases",
+        "events": 7,
+        "expected": "GRANT_REVOKED_OR_UNKNOWN",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "GRANT_REVOKED_OR_UNKNOWN",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "evidence-revoked-between-phases",
+        "events": 7,
+        "expected": "GRANT_REVOKED_OR_UNKNOWN",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "GRANT_REVOKED_OR_UNKNOWN",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "idempotency-conflict",
+        "events": 6,
+        "expected": "IDEMPOTENCY_CONFLICT",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "IDEMPOTENCY_CONFLICT",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "duplicate-response",
+        "events": 6,
+        "expected": "ONE_EFFECT",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 1,
+            "tenant": "demo",
+            "units": 97
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "ONE_EFFECT",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "world-change-between-phases",
+        "events": 8,
+        "expected": "WORLD_CHANGED_SINCE_PREPARE",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 1,
+            "tenant": "demo",
+            "units": 95
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "WORLD_CHANGED_SINCE_PREPARE",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "crash-before-commit",
+        "events": 6,
+        "expected": "ROLLED_BACK_THEN_ONE_EFFECT",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 1,
+            "tenant": "demo",
+            "units": 97
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "ROLLED_BACK_THEN_ONE_EFFECT",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "lost-response-after-commit",
+        "events": 6,
+        "expected": "RECOVERED_WITHOUT_REPEAT",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 1,
+            "tenant": "demo",
+            "units": 97
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "RECOVERED_WITHOUT_REPEAT",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "compensation-conflict",
+        "events": 9,
+        "expected": "COMPENSATION_CONFLICT",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 2,
+            "tenant": "demo",
+            "units": 92
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "COMPENSATION_CONFLICT",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "observer-after-other-write",
+        "events": 9,
+        "expected": "RECONCILIATION_REQUIRED",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 2,
+            "tenant": "demo",
+            "units": 92
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "RECONCILIATION_REQUIRED",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      },
+      {
+        "case": "concurrent-budget",
+        "events": 52,
+        "expected": "ONE_EFFECT_23_DENIALS",
+        "inventory": [
+          {
+            "resource": "stock-a",
+            "revision": 1,
+            "tenant": "demo",
+            "units": 97
+          },
+          {
+            "resource": "stock-b",
+            "revision": 0,
+            "tenant": "demo",
+            "units": 100
+          }
+        ],
+        "observed": "ONE_EFFECT_23_DENIALS",
+        "passed": true,
+        "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+      }
+    ]
+  },
+  "system": "DIKWP-PRAXIS-OS",
+  "tamper": {
+    "state_edit": "REPLAY_FINAL_STATE_MISMATCH",
+    "truncation": "AUDIT_ANCHOR_MISMATCH"
+  },
+  "version": "2.0.0"
+}

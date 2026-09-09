@@ -1,0 +1,36 @@
+{
+  "before_send": "RETRY_AUTHORIZATION_REQUIRED",
+  "boundary": "Two local SQLite databases, not a network/payment adapter or distributed exactly-once guarantee.",
+  "false_success": "RETRY_AUTHORIZATION_REQUIRED",
+  "jobs": [
+    {
+      "body": {
+        "id": "before-send",
+        "units": 2
+      },
+      "hash": "9b4efc2baa682f18cf1a1f83536c6ee3dc4d954a5fe8ec9cea76c3e06a314aa8",
+      "state": "RETRY_AUTHORIZATION_REQUIRED"
+    },
+    {
+      "body": {
+        "id": "false-success",
+        "units": 4
+      },
+      "hash": "d650691daa3dcacda19960f3ccaeb3738de6da2900455a59abd6f0400af9fac0",
+      "state": "RETRY_AUTHORIZATION_REQUIRED"
+    },
+    {
+      "body": {
+        "id": "lost-response",
+        "units": 7
+      },
+      "hash": "65abe28664e99364bede33d63089245881272ef6e04f3ee4f9c0338b14ea6e32",
+      "state": "VERIFIED_PROVIDER_EFFECT"
+    }
+  ],
+  "provider_effects": 1,
+  "provider_remaining_units": 93,
+  "recovered": "VERIFIED_PROVIDER_EFFECT",
+  "repeat_denied": "NO_BLIND_REDELIVERY",
+  "unavailable_status": "OUTCOME_UNKNOWN"
+}

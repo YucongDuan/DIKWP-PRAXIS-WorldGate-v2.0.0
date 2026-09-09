@@ -1,0 +1,125 @@
+{
+  "judge_version": "synthetic-reviewer-1",
+  "rows": [
+    {
+      "item_id": "j00",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j01",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j02",
+      "prediction": null,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j03",
+      "prediction": true,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j04",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j05",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j06",
+      "prediction": false,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j07",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j08",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j09",
+      "prediction": null,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j10",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j11",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j12",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j13",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j14",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j15",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j16",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j17",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    },
+    {
+      "item_id": "j18",
+      "prediction": true,
+      "probability": 0.8,
+      "truth": true
+    },
+    {
+      "item_id": "j19",
+      "prediction": false,
+      "probability": 0.2,
+      "truth": false
+    }
+  ]
+}

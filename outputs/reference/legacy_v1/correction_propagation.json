@@ -1,0 +1,82 @@
+{
+  "affected": [
+    "claim-a",
+    "release-a",
+    "report-a"
+  ],
+  "authority_boundary": "A local analytical proposal from a declared actor; not authenticated external source withdrawal.",
+  "external_revocation_performed": false,
+  "independent_preserved": [
+    "report-b",
+    "source-b"
+  ],
+  "new_answer_generated": false,
+  "nodes": [
+    {
+      "depends_on": [],
+      "id": "source-a",
+      "kind": "source"
+    },
+    {
+      "depends_on": [],
+      "id": "source-b",
+      "kind": "source"
+    },
+    {
+      "depends_on": [
+        "source-a"
+      ],
+      "id": "claim-a",
+      "kind": "claim"
+    },
+    {
+      "depends_on": [
+        "claim-a"
+      ],
+      "id": "report-a",
+      "kind": "report"
+    },
+    {
+      "depends_on": [
+        "report-a"
+      ],
+      "id": "release-a",
+      "kind": "release"
+    },
+    {
+      "depends_on": [
+        "source-b"
+      ],
+      "id": "report-b",
+      "kind": "report"
+    }
+  ],
+  "original_graph_hash": "bc17f8a55fce29a0a2a15cbb4e7b9b9672b921a3b928ae06aad115086a1e6bc0",
+  "successor_annotations": [
+    {
+      "evidence": {
+        "actor": "local-reviewer",
+        "reason": "Original source corrected",
+        "status": "SUPERSEDED",
+        "target": "source-a"
+      },
+      "node_id": "source-a",
+      "status": "SUPERSEDED"
+    },
+    {
+      "node_id": "claim-a",
+      "status": "NEEDS_REVIEW",
+      "trigger": "source-a"
+    },
+    {
+      "node_id": "release-a",
+      "status": "NEEDS_REVIEW",
+      "trigger": "source-a"
+    },
+    {
+      "node_id": "report-a",
+      "status": "NEEDS_REVIEW",
+      "trigger": "source-a"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "case": "duplicate-response",
+  "events": 6,
+  "expected": "ONE_EFFECT",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 1,
+      "tenant": "demo",
+      "units": 97
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "ONE_EFFECT",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

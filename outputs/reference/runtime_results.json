@@ -1,0 +1,517 @@
+{
+  "cases": 23,
+  "clock": "Synthetic epoch=1000; ephemeral role keys are not real human approvals.",
+  "concurrency_results": {
+    "COMMITTED_PENDING_OBSERVATION": 1,
+    "GRANT_BUDGET_EXHAUSTED": 23
+  },
+  "passed": 23,
+  "scenarios": [
+    {
+      "case": "verified-and-compensated",
+      "events": 8,
+      "expected": "COMPENSATED",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 2,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "COMPENSATED",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "tampered-signature",
+      "events": 5,
+      "expected": "BAD_SIGNATURE",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "BAD_SIGNATURE",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "wrong-candidate",
+      "events": 5,
+      "expected": "ACTION_BINDING",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "ACTION_BINDING",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "wrong-tenant",
+      "events": 5,
+      "expected": "UNTRUSTED_ROLE_OR_TENANT",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "UNTRUSTED_ROLE_OR_TENANT",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "wrong-resource",
+      "events": 5,
+      "expected": "RESOURCE_NOT_GRANTED",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "RESOURCE_NOT_GRANTED",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "negative-units",
+      "events": 5,
+      "expected": "INTEGER_RANGE",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "INTEGER_RANGE",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "boolean-units",
+      "events": 5,
+      "expected": "INTEGER_RANGE",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "INTEGER_RANGE",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "floating-units",
+      "events": 5,
+      "expected": "INTEGER_RANGE",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "INTEGER_RANGE",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "stale-revision",
+      "events": 5,
+      "expected": "STALE_WORLD_REVISION",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "STALE_WORLD_REVISION",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "unknown-operation",
+      "events": 5,
+      "expected": "ACTION_KIND",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "ACTION_KIND",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "prompt-as-authority",
+      "events": 5,
+      "expected": "SCHEMA_FIELDS",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "SCHEMA_FIELDS",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "expired-at-prepare",
+      "events": 5,
+      "expected": "TIME_WINDOW",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "TIME_WINDOW",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "expiry-between-phases",
+      "events": 6,
+      "expected": "TIME_WINDOW",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "TIME_WINDOW",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "grant-revoked-between-phases",
+      "events": 7,
+      "expected": "GRANT_REVOKED_OR_UNKNOWN",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "GRANT_REVOKED_OR_UNKNOWN",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "evidence-revoked-between-phases",
+      "events": 7,
+      "expected": "GRANT_REVOKED_OR_UNKNOWN",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "GRANT_REVOKED_OR_UNKNOWN",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "idempotency-conflict",
+      "events": 6,
+      "expected": "IDEMPOTENCY_CONFLICT",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "IDEMPOTENCY_CONFLICT",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "duplicate-response",
+      "events": 6,
+      "expected": "ONE_EFFECT",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 1,
+          "tenant": "demo",
+          "units": 97
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "ONE_EFFECT",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "world-change-between-phases",
+      "events": 8,
+      "expected": "WORLD_CHANGED_SINCE_PREPARE",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 1,
+          "tenant": "demo",
+          "units": 95
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "WORLD_CHANGED_SINCE_PREPARE",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "crash-before-commit",
+      "events": 6,
+      "expected": "ROLLED_BACK_THEN_ONE_EFFECT",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 1,
+          "tenant": "demo",
+          "units": 97
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "ROLLED_BACK_THEN_ONE_EFFECT",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "lost-response-after-commit",
+      "events": 6,
+      "expected": "RECOVERED_WITHOUT_REPEAT",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 1,
+          "tenant": "demo",
+          "units": 97
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "RECOVERED_WITHOUT_REPEAT",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "compensation-conflict",
+      "events": 9,
+      "expected": "COMPENSATION_CONFLICT",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 2,
+          "tenant": "demo",
+          "units": 92
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "COMPENSATION_CONFLICT",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "observer-after-other-write",
+      "events": 9,
+      "expected": "RECONCILIATION_REQUIRED",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 2,
+          "tenant": "demo",
+          "units": 92
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "RECONCILIATION_REQUIRED",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    },
+    {
+      "case": "concurrent-budget",
+      "events": 52,
+      "expected": "ONE_EFFECT_23_DENIALS",
+      "inventory": [
+        {
+          "resource": "stock-a",
+          "revision": 1,
+          "tenant": "demo",
+          "units": 97
+        },
+        {
+          "resource": "stock-b",
+          "revision": 0,
+          "tenant": "demo",
+          "units": 100
+        }
+      ],
+      "observed": "ONE_EFFECT_23_DENIALS",
+      "passed": true,
+      "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+    }
+  ]
+}

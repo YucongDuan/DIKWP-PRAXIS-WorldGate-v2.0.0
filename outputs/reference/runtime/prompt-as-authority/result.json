@@ -1,0 +1,22 @@
+{
+  "case": "prompt-as-authority",
+  "events": 5,
+  "expected": "SCHEMA_FIELDS",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "SCHEMA_FIELDS",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

@@ -1,0 +1,361 @@
+{
+  "cannot_infer": "No inference about general agents, human cognition or memory necessity. Trace correlations alone were not used as causal proof.",
+  "interpretation": "Read capability is necessary for these two toy implementations. Memory trace metadata is not necessary for their arithmetic output.",
+  "results": [
+    {
+      "carrier": "direct",
+      "correct_base": 24,
+      "correct_without_memory_metadata": 24,
+      "correct_without_read": 0,
+      "n": 24,
+      "trials": [
+        {
+          "base_correct": true,
+          "case_id": "case-00",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-01",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-02",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-03",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-04",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-05",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-06",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-07",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-08",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-09",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-10",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-11",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-12",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-13",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-14",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-15",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-16",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-17",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-18",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-19",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-20",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-21",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-22",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-23",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        }
+      ]
+    },
+    {
+      "carrier": "relational",
+      "correct_base": 24,
+      "correct_without_memory_metadata": 24,
+      "correct_without_read": 0,
+      "n": 24,
+      "trials": [
+        {
+          "base_correct": true,
+          "case_id": "case-00",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-01",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-02",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-03",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-04",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-05",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-06",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-07",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-08",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-09",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-10",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-11",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-12",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-13",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-14",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-15",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-16",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-17",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-18",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-19",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-20",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-21",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-22",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        },
+        {
+          "base_correct": true,
+          "case_id": "case-23",
+          "memory_metadata_removal_correct": true,
+          "read_removal_correct": false,
+          "tool_denial_enforced": true
+        }
+      ]
+    }
+  ],
+  "scope": "EXECUTED_FINITE_SYNTHETIC_INTERVENTION"
+}

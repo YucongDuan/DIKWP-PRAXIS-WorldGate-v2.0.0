@@ -1,0 +1,17 @@
+{
+  "candidate_hash": "08aacca7af812de75dd2e491cf60932e7c275f0b34211786e567ccdb3f7a98d5",
+  "contract_id": "contract-1",
+  "expires_at": 4600,
+  "issued_at": 1000,
+  "kind": "contract",
+  "max_lease_seconds": 300,
+  "max_units_per_action": 20,
+  "min_remaining": 2,
+  "operation": "inventory.reserve",
+  "owner": "owner-person",
+  "resources": [
+    "stock-a",
+    "stock-b"
+  ],
+  "tenant": "demo"
+}

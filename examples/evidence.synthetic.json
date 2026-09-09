@@ -1,0 +1,13 @@
+{
+  "artifact_hash": "132333b5f326ce46058197802a325f9da7aaa755a3fad20fc51bb92f7c49967a",
+  "candidate_hash": "08aacca7af812de75dd2e491cf60932e7c275f0b34211786e567ccdb3f7a98d5",
+  "case_groups": 36,
+  "contract_hash": "6ebb4ef51c4ce867731cc88ef9364bbccf76eed4f5e2eb39419995609540ee2b",
+  "expires_at": 2200,
+  "issued_at": 1000,
+  "kind": "evidence",
+  "operation": "inventory.reserve",
+  "origin": "synthetic_local_execution",
+  "tenant": "demo",
+  "verdict": "PASS_WITHIN_SCOPE"
+}

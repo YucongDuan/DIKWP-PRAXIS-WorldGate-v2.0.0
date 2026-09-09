@@ -1,0 +1,91 @@
+{
+  "a11y_audits": {
+    "cn": {
+      "log": "a11y_cn.txt",
+      "returncode": 0
+    },
+    "en": {
+      "log": "a11y_en.txt",
+      "returncode": 0
+    }
+  },
+  "browser": {
+    "console_errors": [],
+    "external_http_requests": [],
+    "html_injection_rendered_as_text": true,
+    "imported_data_unverified_label": true,
+    "interactive_browser_passed": true,
+    "invalid_import_preserves_data": true,
+    "javascript_syntax": true,
+    "languages": [
+      "zh-CN",
+      "en"
+    ],
+    "loading_method": "Full HTML injected via set_content; file URL blocked by managed browser policy",
+    "mobile_width_check": true,
+    "runtime_rows": 23,
+    "unsigned_draft_exported": true
+  },
+  "concurrency": {
+    "COMMITTED_PENDING_OBSERVATION": 1,
+    "GRANT_BUDGET_EXHAUSTED": 23
+  },
+  "created": "2026-09-08",
+  "delivery_effects": 1,
+  "document_pages": {
+    "cn": 17,
+    "en": 17
+  },
+  "edition": "WORLDGATE",
+  "environment": {
+    "cryptography": "46.0.4",
+    "python": "3.13.5",
+    "sqlite": "3.46.1"
+  },
+  "feedback": "GRANT_REVOKED_OR_UNKNOWN",
+  "legacy_executions": 432,
+  "pinned_replay": {
+    "authenticated_anchor_checked": true,
+    "chain_valid": true,
+    "commands_reexecuted": 7,
+    "events": 8,
+    "external_trust_pinned": true,
+    "hash_only_denials_not_reexecuted": 0,
+    "limits": [
+      "Not a fresh agent run.",
+      "Denials retain hashes, so their original inputs are not replayed.",
+      "Retain the latest public trust root and signed anchor independently to detect wholesale rollback."
+    ],
+    "signature_valid": true,
+    "state": "RECORDED_COMMAND_REPLAY_MATCH",
+    "tail": "560e6ff816f3d6ed07d5ddef1150a630ebc5ea2a2379c3f0ada1bbf168709ba9"
+  },
+  "repair_development_executions": 288,
+  "repair_holdout_executions": 36,
+  "runtime_cases": 23,
+  "runtime_cases_passed": 23,
+  "runtime_events": 185,
+  "schemas_validated": 8,
+  "scope": "Synthetic local reference only; no live model/API/payment/publication/security certification.",
+  "system": "DIKWP-PRAXIS-OS",
+  "tests": {
+    "all_passed": true,
+    "legacy": {
+      "errors": 0,
+      "failures": 0,
+      "passed": true,
+      "skipped": 0,
+      "tests": 115
+    },
+    "total": 221,
+    "worldgate": {
+      "errors": 0,
+      "failures": 0,
+      "passed": true,
+      "skipped": 0,
+      "tests": 106
+    }
+  },
+  "version": "2.0.0",
+  "zipapp_fresh_reference": true
+}

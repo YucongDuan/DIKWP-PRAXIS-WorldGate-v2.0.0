@@ -1,0 +1,4 @@
+{
+  "denial_exit_code": 2,
+  "stderr": "{\"error\":\"FileNotFoundError\",\"message\":\"[Errno 2] No such file or directory: '/mnt/data/praxis2_build/does-not-exist.json'\"}\n"
+}

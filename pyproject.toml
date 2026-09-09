@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "dikwp-praxis-worldgate"
+version = "2.0.0"
+description = "Evidence-bound local action kernel, outcome witnessing and governed adaptation"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Yucong Duan"}]
+dependencies = ["cryptography>=46.0.4"]
+[project.scripts]
+praxis-worldgate = "praxis_gate.cli:main"
+praxis-legacy = "praxis_os.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

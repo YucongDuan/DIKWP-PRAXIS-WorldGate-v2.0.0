@@ -1,0 +1,31 @@
+{
+  "agreement": 0.8888888888888888,
+  "agreement_ci95": [
+    0.672002348698212,
+    0.9689804773543876
+  ],
+  "boundary": "Conditional on covered, supplied gold labels and representative independent items. Human labels are not automatically truth.",
+  "brier": 0.039999999999999994,
+  "confusion": {
+    "abstain": 2,
+    "fn": 1,
+    "fp": 1,
+    "tn": 8,
+    "tp": 8
+  },
+  "coverage": 0.9,
+  "covered": 18,
+  "false_accept_ci95": [
+    0.019890887638544907,
+    0.434999705576656
+  ],
+  "false_accept_rate": 0.1111111111111111,
+  "false_reject_ci95": [
+    0.019890887638544907,
+    0.434999705576656
+  ],
+  "false_reject_rate": 0.1111111111111111,
+  "judge_version": "synthetic-reviewer-1",
+  "n": 20,
+  "probability_count": 20
+}

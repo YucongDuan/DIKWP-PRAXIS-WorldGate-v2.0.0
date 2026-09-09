@@ -1,0 +1,12 @@
+{
+  "assessment_hash": "d952d57b8fc1e02e1fef53003ca4352fe8d87a524dbf602e9c7e2d7c43e8c421",
+  "count": 432,
+  "scope": "Frozen inputs and recorded outputs; not a fresh independent empirical replication.",
+  "semantic_receipt": {
+    "forward": "P.audit",
+    "reverse": "P.replay",
+    "role": "D",
+    "same": "Bounded assessment JSON"
+  },
+  "state": "RECOMPUTED_MATCH"
+}

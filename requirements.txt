@@ -1,0 +1,3 @@
+# One direct runtime dependency for WorldGate; v1 legacy remains stdlib-only.
+# This release was tested with cryptography 46.0.4. Review security updates before production use.
+cryptography>=46.0.4

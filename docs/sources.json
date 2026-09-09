@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-09-08",
+  "sources": [
+    {
+      "id": "B1",
+      "location": "legacy/ and verification/upstream_lineage.json",
+      "role": "Actual baseline source and tests; not an external competitor",
+      "title": "DIKWP-PRAXIS-OS 1.0.0 supplied release"
+    },
+    {
+      "id": "S1",
+      "role": "BEGIN IMMEDIATE and transaction behavior",
+      "title": "SQLite: Transaction",
+      "url": "https://www.sqlite.org/lang_transaction.html"
+    },
+    {
+      "id": "S2",
+      "role": "Serialized local write transactions and visibility",
+      "title": "SQLite: Isolation",
+      "url": "https://www.sqlite.org/isolation.html"
+    },
+    {
+      "id": "S3",
+      "role": "Established signature API; no custom cryptography",
+      "title": "PyCA cryptography: Ed25519 signing",
+      "url": "https://cryptography.io/en/latest/hazmat/primitives/asymmetric/ed25519/"
+    },
+    {
+      "doi": "10.1214/23-STS894",
+      "id": "S4",
+      "role": "Test martingale/e-process basis; specific finite mixture stated here",
+      "title": "Ramdas, Grunwald, Vovk, Shafer. Game-theoretic statistics and safe anytime-valid inference. Statistical Science 38(4), 576–601, 2023.",
+      "url": "https://arxiv.org/abs/2210.01948"
+    },
+    {
+      "id": "S5",
+      "role": "Connection, transaction and context-manager semantics",
+      "title": "Python sqlite3 documentation",
+      "url": "https://docs.python.org/3/library/sqlite3.html"
+    },
+    {
+      "id": "B2",
+      "location": "Earlier conversation attachment: 粘贴的 markdown (1)。md(6)",
+      "role": "Context only; v2 comparison is against recovered v1 source, not invented vendor results",
+      "title": "Supplied Agent Evaluation Guide"
+    }
+  ]
+}

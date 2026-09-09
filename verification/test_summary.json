@@ -1,0 +1,18 @@
+{
+  "worldgate": {
+    "tests": 106,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "legacy": {
+    "tests": 115,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "total": 221,
+  "all_passed": true
+}

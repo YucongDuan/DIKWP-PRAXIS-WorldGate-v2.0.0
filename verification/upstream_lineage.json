@@ -1,0 +1,21 @@
+{
+  "upstream_zip_sha256": "9bcbb748b3ca27a1a62128c8107f0593a7a8f272fab32a71811469edf3d26abd",
+  "unchanged_legacy_source_files": 15,
+  "legacy_package_sha256": {
+    "telemetry.py": "658698d0118e00d8815cbe2385e4c917d95e88eb048bde9abdfd733bf1b6bf7f",
+    "cli.py": "b2ef7c90f891baf7288401f14f3248d43e5bdd00922e6ef758bc9b3f32cb773f",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "common.py": "6be61cdc2bd2e7584a73e9c6982217999f4b7821084deb036cbb84c170f90ed3",
+    "adapters.py": "77e228c0f666b735d6fd6becedfbadeb010cf289ebdce52ce00625ef0aab47dd",
+    "harness.py": "5da80180207d07b9b1e75eeb7adb1588b8ec1afe2da138beb69f53ae35ce50ca",
+    "lineage.py": "9975d6e2b69cdb47e900baab3c0928c763e91c61b10315dc713ba9ffcc8cf87f",
+    "stats.py": "45e4624b6509470ec9eec6ed3deed64f1e5d1fb9ee503ad359125af7d091cba3",
+    "causal.py": "e6363a334c6a8aa9f30feda611aae5600d3acbe1a2dfc0734539a6e497614e3e",
+    "fixtures.py": "f0991d8bec9064733757184b0c671e6b50cfdca6507b9aacd81fd02def2b756d",
+    "evaluators.py": "85af83c5346e253fc92bd8e77b8f9aafd29aca37cec8cdc3d01e8a5b779f70f6",
+    "__init__.py": "7d5973b4f3bd0ea8c2c7b2d245a5bd9e1082cf0f3e725589f93c8f6d05baf42c",
+    "feedback.py": "1c9973099f50cf014f5a4e3a49cd37444c39bd97c7be487d0a17f0578da0cc6c",
+    "lifecycle.py": "7fb4d2b910aa76def8ef2462298ad5613b68a1b756c0c6fe5f627efd3cd0c70e",
+    "contracts.py": "12a7ad64b623adc3644bc090dc41cb340ea1d971c85e0e9017ed0ddb554e60ce"
+  }
+}

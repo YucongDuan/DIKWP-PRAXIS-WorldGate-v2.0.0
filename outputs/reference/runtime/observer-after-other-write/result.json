@@ -1,0 +1,22 @@
+{
+  "case": "observer-after-other-write",
+  "events": 9,
+  "expected": "RECONCILIATION_REQUIRED",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 2,
+      "tenant": "demo",
+      "units": 92
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "RECONCILIATION_REQUIRED",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

@@ -1,0 +1,22 @@
+{
+  "case": "evidence-revoked-between-phases",
+  "events": 7,
+  "expected": "GRANT_REVOKED_OR_UNKNOWN",
+  "inventory": [
+    {
+      "resource": "stock-a",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    },
+    {
+      "resource": "stock-b",
+      "revision": 0,
+      "tenant": "demo",
+      "units": 100
+    }
+  ],
+  "observed": "GRANT_REVOKED_OR_UNKNOWN",
+  "passed": true,
+  "replay": "RECORDED_COMMAND_REPLAY_MATCH"
+}

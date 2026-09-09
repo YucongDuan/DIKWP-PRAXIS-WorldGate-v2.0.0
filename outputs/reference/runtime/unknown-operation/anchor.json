@@ -1,0 +1,12 @@
+{
+  "key_id": "key-operator",
+  "payload": {
+    "event_count": 5,
+    "issued_at": 1250,
+    "kind": "anchor",
+    "tail": "75719932bccc8c6ae5c99355457d9c8367bb8f44d62a07debd10f3d3849e32ca",
+    "tenant": "demo",
+    "trust_hash": "ec20bc804d42f3696e13caf820b6afe9b2ef62d23da3b96c3de5e64b1033c50e"
+  },
+  "signature": "Xw9fQFaCQGEidBZHGDxZNRrymnvHJBdFudxnLLxDufzwfFxYGF1/9jMoyy0HVQ3/mgUOxH0y6pkHgM3PVALvDw=="
+}

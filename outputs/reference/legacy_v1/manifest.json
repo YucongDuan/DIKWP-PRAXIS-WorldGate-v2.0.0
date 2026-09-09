@@ -1,0 +1,101 @@
+{
+  "boundary": "Integrity only; authentic origin requires an independently trusted anchor.",
+  "files": [
+    {
+      "path": "causal_interventions.json",
+      "sha256": "b4664cc81b551a8edf631f2936f7806f3e2207b364c011e0d5bec6c8793ded43",
+      "size": 11119
+    },
+    {
+      "path": "correction_propagation.json",
+      "sha256": "92514e6342d3e7ea74ddccb852fdec2892b77e3f2a62adbaf1566bf2c1c04784",
+      "size": 1634
+    },
+    {
+      "path": "dashboard.json",
+      "sha256": "996483383dc83355463408a134f7dd0251fcf01d13bf6a53c3883d47105fea89",
+      "size": 89911
+    },
+    {
+      "path": "diagnostics.json",
+      "sha256": "9751132304fea14968af4f39bb94427fad2953f4d04d4f2ff26847f869c6b58b",
+      "size": 24094
+    },
+    {
+      "path": "experiment/anchor.json",
+      "sha256": "c062081e61d9b98551d8aca28dd69e8673ee28563615cd1d68468a8676a4e715",
+      "size": 95
+    },
+    {
+      "path": "experiment/assessment.json",
+      "sha256": "31017a18c6d49e61e71819474f5c8703340d552f74b354b7c5d9cd69996e028e",
+      "size": 921053
+    },
+    {
+      "path": "experiment/ledger.jsonl",
+      "sha256": "ca7e9639bfe5aeb0db66764cb06cd640dd3959ddd33801e5ac5d5f3bfbba428a",
+      "size": 1753
+    },
+    {
+      "path": "experiment/project.json",
+      "sha256": "35a706f601ad2781aed2410064b4ecbf3e89c27f6bab9970319778ea06ec58b2",
+      "size": 18652
+    },
+    {
+      "path": "experiment/report.md",
+      "sha256": "c1c1a521961493d62e1d8b2555950add73ceb915aa74fad9fa815e5e3ce07d86",
+      "size": 1034
+    },
+    {
+      "path": "experiment/runs.jsonl",
+      "sha256": "24365abc172bd48329d058dd439b2e130e545c1fd77708f033bc40cb225c71c6",
+      "size": 450349
+    },
+    {
+      "path": "experiment/semantic_graph.json",
+      "sha256": "931fa5693149de8bdeb2436946b227ff16fca55e95bbf5f03d75387abbbac729",
+      "size": 5994
+    },
+    {
+      "path": "feedback_proposals.json",
+      "sha256": "146568db7ca91ae99b22be3a6a6b6dfeee7611af31b1b0f0ddce42c77a1a8687",
+      "size": 40771
+    },
+    {
+      "path": "judge_calibration.json",
+      "sha256": "53b9522312072086ae655abdb6dc4c1731e1be50a1437d632cc6c84bd3625580",
+      "size": 736
+    },
+    {
+      "path": "judge_panel.json",
+      "sha256": "74f70c5bb8883e9a12a2a79d3e65fe4f93ce3d87c445f24c2784d64ccc477602",
+      "size": 217
+    },
+    {
+      "path": "otlp_import.json",
+      "sha256": "13472fe6e463657a395ea232a448327d2312361e2416c42d3547ef16b49c3e02",
+      "size": 1061
+    },
+    {
+      "path": "replay.json",
+      "sha256": "94056270c7948a85475d6e4ebb29f90c86934dcb135232a5fb1d13a1fb23666e",
+      "size": 373
+    },
+    {
+      "path": "sampling_audit.json",
+      "sha256": "34fb658b1b3227771181c932b5c260c6ad86d8bdf0a6a12d6424311f64b66486",
+      "size": 327
+    },
+    {
+      "path": "workflow/registry.sqlite",
+      "sha256": "581d299f485f7535e9bd5b3f1f4d9d25470629a9ae0ea29fed068043539ad760",
+      "size": 40960
+    },
+    {
+      "path": "workflow/workflow.json",
+      "sha256": "ed2fcd4e5d61ae3afd4b97e1532bb18b23dd005fa558beeb6407b6c798846b7e",
+      "size": 7233
+    }
+  ],
+  "root_hash": "1ec81bba1e28880e7d79f2604e56eeb213ed338a77a139ffb4e3e5bf5d2886b2"
+}

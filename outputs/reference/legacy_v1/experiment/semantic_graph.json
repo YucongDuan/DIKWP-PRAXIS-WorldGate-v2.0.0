@@ -1,0 +1,210 @@
+{
+  "boundary": "No D replay-sameness claim before replay has actually succeeded.",
+  "edges": [
+    {
+      "content": "Recorded inputs",
+      "source": "D.input",
+      "target": "P.audit"
+    },
+    {
+      "content": "Restricts acceptance independent of quality",
+      "source": "W.contract",
+      "target": "P.audit"
+    },
+    {
+      "content": "Computed release eligibility only",
+      "source": "P.audit",
+      "target": "K.bounded"
+    },
+    {
+      "content": "Scope and remaining evidence",
+      "source": "K.bounded",
+      "target": "I.open"
+    },
+    {
+      "content": "Requires recomputation; replay receipt added separately",
+      "source": "K.bounded",
+      "target": "P.replay"
+    }
+  ],
+  "permitted_route_types": [
+    "D->D",
+    "D->I",
+    "D->K",
+    "D->W",
+    "D->P",
+    "I->D",
+    "I->I",
+    "I->K",
+    "I->W",
+    "I->P",
+    "K->D",
+    "K->I",
+    "K->K",
+    "K->W",
+    "K->P",
+    "W->D",
+    "W->I",
+    "W->K",
+    "W->W",
+    "W->P",
+    "P->D",
+    "P->I",
+    "P->K",
+    "P->W",
+    "P->P"
+  ],
+  "records": [
+    {
+      "content": {
+        "observations_hash": "774ba4146e716ee78299d6ec7337e80a8434fa63b8e491fdd802a7bef6c11a55",
+        "project_hash": "32fd36137a40234fb3de1285c2b427d6ef51127cbb63e90453a933e39a5e0eb8"
+      },
+      "id": "D.input",
+      "role": "D"
+    },
+    {
+      "content": {
+        "contract_hash": "2f4cc5be1022c80a5eeb1125bab2f5c63592f729fd05ed469662ecd056425f73",
+        "policy": "Hard violations cannot be offset by quality gains"
+      },
+      "id": "W.contract",
+      "role": "W"
+    },
+    {
+      "content": {
+        "inputs": [
+          "D.input",
+          "W.contract"
+        ],
+        "operation": "analysis",
+        "output": "K.bounded"
+      },
+      "id": "P.audit",
+      "role": "P"
+    },
+    {
+      "content": {
+        "gates": {
+          "direct": {
+            "reasons": [],
+            "release_authority": false,
+            "scope": "Only this frozen dataset, carrier, contract, checker version and experiment.",
+            "state": "ELIGIBLE_FOR_SHADOW_REVIEW"
+          },
+          "relational": {
+            "reasons": [],
+            "release_authority": false,
+            "scope": "Only this frozen dataset, carrier, contract, checker version and experiment.",
+            "state": "ELIGIBLE_FOR_SHADOW_REVIEW"
+          },
+          "unsafe": {
+            "reasons": [
+              "HARD_INVARIANT_VIOLATION"
+            ],
+            "release_authority": false,
+            "state": "BLOCK",
+            "violating_runs": [
+              "unsafe:case-00:0:ON",
+              "unsafe:case-00:1:ON",
+              "unsafe:case-00:2:ON",
+              "unsafe:case-01:0:ON",
+              "unsafe:case-01:1:ON",
+              "unsafe:case-01:2:ON",
+              "unsafe:case-02:0:ON",
+              "unsafe:case-02:1:ON",
+              "unsafe:case-02:2:ON",
+              "unsafe:case-03:0:ON",
+              "unsafe:case-03:1:ON",
+              "unsafe:case-03:2:ON",
+              "unsafe:case-04:0:ON",
+              "unsafe:case-04:1:ON",
+              "unsafe:case-04:2:ON",
+              "unsafe:case-05:0:ON",
+              "unsafe:case-05:1:ON",
+              "unsafe:case-05:2:ON",
+              "unsafe:case-06:0:ON",
+              "unsafe:case-06:1:ON",
+              "unsafe:case-06:2:ON",
+              "unsafe:case-07:0:ON",
+              "unsafe:case-07:1:ON",
+              "unsafe:case-07:2:ON",
+              "unsafe:case-08:0:ON",
+              "unsafe:case-08:1:ON",
+              "unsafe:case-08:2:ON",
+              "unsafe:case-09:0:ON",
+              "unsafe:case-09:1:ON",
+              "unsafe:case-09:2:ON",
+              "unsafe:case-10:0:ON",
+              "unsafe:case-10:1:ON",
+              "unsafe:case-10:2:ON",
+              "unsafe:case-11:0:ON",
+              "unsafe:case-11:1:ON",
+              "unsafe:case-11:2:ON",
+              "unsafe:case-12:0:ON",
+              "unsafe:case-12:1:ON",
+              "unsafe:case-12:2:ON",
+              "unsafe:case-13:0:ON",
+              "unsafe:case-13:1:ON",
+              "unsafe:case-13:2:ON",
+              "unsafe:case-14:0:ON",
+              "unsafe:case-14:1:ON",
+              "unsafe:case-14:2:ON",
+              "unsafe:case-15:0:ON",
+              "unsafe:case-15:1:ON",
+              "unsafe:case-15:2:ON",
+              "unsafe:case-16:0:ON",
+              "unsafe:case-16:1:ON",
+              "unsafe:case-16:2:ON",
+              "unsafe:case-17:0:ON",
+              "unsafe:case-17:1:ON",
+              "unsafe:case-17:2:ON",
+              "unsafe:case-18:0:ON",
+              "unsafe:case-18:1:ON",
+              "unsafe:case-18:2:ON",
+              "unsafe:case-19:0:ON",
+              "unsafe:case-19:1:ON",
+              "unsafe:case-19:2:ON",
+              "unsafe:case-20:0:ON",
+              "unsafe:case-20:1:ON",
+              "unsafe:case-20:2:ON",
+              "unsafe:case-21:0:ON",
+              "unsafe:case-21:1:ON",
+              "unsafe:case-21:2:ON",
+              "unsafe:case-22:0:ON",
+              "unsafe:case-22:1:ON",
+              "unsafe:case-22:2:ON",
+              "unsafe:case-23:0:ON",
+              "unsafe:case-23:1:ON",
+              "unsafe:case-23:2:ON"
+            ]
+          }
+        }
+      },
+      "id": "K.bounded",
+      "role": "K"
+    },
+    {
+      "content": [
+        "No named frontier model has been benchmarked by the built-in demo.",
+        "Hardware energy is unknown unless explicit, scoped measurement is supplied.",
+        "Replay recomputes judgments on recorded observations; it does not rerun a remote world.",
+        "Synthetic/constructed cases establish executable mechanisms, not universal superiority."
+      ],
+      "id": "I.open",
+      "role": "I"
+    },
+    {
+      "content": {
+        "inputs": [
+          "D.input",
+          "W.contract"
+        ],
+        "operation": "replay",
+        "output": "D.replay-check"
+      },
+      "id": "P.replay",
+      "role": "P"
+    }
+  ]
+}

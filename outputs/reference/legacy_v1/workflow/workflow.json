@@ -1,0 +1,178 @@
+{
+  "boundary": "Local shared-key registry; not verified identity, institutional approval or an external deployer.",
+  "count": 5,
+  "events": [
+    {
+      "event": {
+        "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+        "author": "author",
+        "certificate_hash": "e75fdfa2aa92d0ccb2b3c52ecfb56447d0e1e38eba0ff814b1859c6a15e77177",
+        "kind": "REGISTERED",
+        "principal_policy_hash": "1c42687e8e4620830009f8d644e020487442a4f2f607ca83b4f479cc4820e2b7",
+        "release": "demo-release",
+        "state": "EVALUATED"
+      },
+      "hash": "64851c2499f61c45804e797ba1172a2d6a4b8ad93a5bb86819e78e7ab48f020a",
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "seq": 1
+    },
+    {
+      "event": {
+        "approval": {
+          "hmac_sha256": "eaa6871521c1374517a82479d9494d327c922985adabcbd0ed6e97d3823ca939",
+          "payload": {
+            "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+            "evidence_hash": "8a67b945a693853241fc9cc596aa4c27659a846c2acf623258749436c376f797",
+            "expires": 2000,
+            "from": "EVALUATED",
+            "nonce": "demo-0",
+            "principal": "reviewer",
+            "release_id": "demo-release",
+            "to": "SHADOW"
+          }
+        },
+        "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+        "evidence": {
+          "independent_review": true,
+          "rollback_plan": "Restore predecessor manifest; confirm outcome."
+        },
+        "external_deployment_performed": false,
+        "from": "EVALUATED",
+        "kind": "TRANSITION",
+        "principal": "reviewer",
+        "release": "demo-release",
+        "to": "SHADOW"
+      },
+      "hash": "a3361aac772f00c64a629dec1623228c35d2c68c07010b33ee29e51dab80c662",
+      "previous": "64851c2499f61c45804e797ba1172a2d6a4b8ad93a5bb86819e78e7ab48f020a",
+      "seq": 2
+    },
+    {
+      "event": {
+        "approval": {
+          "hmac_sha256": "6e66117a1754186b66b230a42ee6051484cc7e61ccdbf2955ffff1d267cf3e41",
+          "payload": {
+            "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+            "evidence_hash": "ffc3b6d7d426aa7d09e9dc4a6a255c73bc680ccd4efaf0c42fc4bcda584a2cf2",
+            "expires": 2000,
+            "from": "SHADOW",
+            "nonce": "demo-1",
+            "principal": "operator",
+            "release_id": "demo-release",
+            "to": "CANARY"
+          }
+        },
+        "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+        "evidence": {
+          "accepted": true,
+          "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+          "expires": 2000,
+          "harm_events": 0,
+          "n": 12,
+          "observer": "observer",
+          "phase": "SHADOW",
+          "source_kind": "synthetic"
+        },
+        "external_deployment_performed": false,
+        "from": "SHADOW",
+        "kind": "TRANSITION",
+        "principal": "operator",
+        "release": "demo-release",
+        "to": "CANARY"
+      },
+      "hash": "44c97ac22755a6702a8174cd1ff7da2093b94a7fceac073f6b62edfe3c260721",
+      "previous": "a3361aac772f00c64a629dec1623228c35d2c68c07010b33ee29e51dab80c662",
+      "seq": 3
+    },
+    {
+      "event": {
+        "approval": {
+          "hmac_sha256": "ca41a508c06f8065cbffc6223cead8c453cd3a341182777454efff1f2fc5ddd2",
+          "payload": {
+            "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+            "evidence_hash": "d9f2ef228256db1c2f48e3a4314718591ede52f3919071ae56cfe98a807fb33c",
+            "expires": 2000,
+            "from": "CANARY",
+            "nonce": "demo-2",
+            "principal": "operator",
+            "release_id": "demo-release",
+            "to": "ACTIVE"
+          }
+        },
+        "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+        "evidence": {
+          "accepted": true,
+          "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+          "expires": 2000,
+          "harm_events": 0,
+          "n": 12,
+          "observer": "observer",
+          "phase": "CANARY",
+          "source_kind": "synthetic"
+        },
+        "external_deployment_performed": false,
+        "from": "CANARY",
+        "kind": "TRANSITION",
+        "principal": "operator",
+        "release": "demo-release",
+        "to": "ACTIVE"
+      },
+      "hash": "5d1b33bf25c23b6359326f432c25b5e4dfc06f8ffcdda274a2690ff8de7fb987",
+      "previous": "44c97ac22755a6702a8174cd1ff7da2093b94a7fceac073f6b62edfe3c260721",
+      "seq": 4
+    },
+    {
+      "event": {
+        "approval": {
+          "hmac_sha256": "5814d36b00d23d5c81b810a59ec4f53eeb45a3d4bb7e909bd2eb32d022a094bf",
+          "payload": {
+            "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+            "expires": 2000,
+            "nonce": "demo-observe",
+            "outcome_hash": "5bfe02ff5ca7918429a65a7b4ac262c8b5f2b76f8c97fe3f541b103a3ff570fe",
+            "principal": "observer",
+            "release_id": "demo-release"
+          }
+        },
+        "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+        "follow_up": "Local state only. Owner must execute and verify any real-world rollback separately.",
+        "from": "ACTIVE",
+        "kind": "OUTCOME",
+        "observation": {
+          "description": "A new observed adverse fixture reopens acceptance and rolls back LOCAL registry state.",
+          "evidence_ref": "post-release-fixture-1",
+          "source_kind": "synthetic",
+          "status": "HARM"
+        },
+        "release": "demo-release",
+        "to": "ROLLED_BACK"
+      },
+      "hash": "94a12727524e2984edd1c40433b610b61dbbe54293d055f174688f91466d053c",
+      "previous": "5d1b33bf25c23b6359326f432c25b5e4dfc06f8ffcdda274a2690ff8de7fb987",
+      "seq": 5
+    }
+  ],
+  "releases": [
+    {
+      "artifact_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+      "author": "author",
+      "certificate": {
+        "assessment_hash": "d952d57b8fc1e02e1fef53003ca4352fe8d87a524dbf602e9c7e2d7c43e8c421",
+        "candidate_hash": "a0db770ea678f07f165e85731a8575bfafdbc97d43c787dd5a3761ef4fdb1069",
+        "carrier": "direct",
+        "evidence_origin": "CONSTRUCTED_SYNTHETIC_NOT_FRONTIER_MODEL_BENCHMARK",
+        "observations_hash": "774ba4146e716ee78299d6ec7337e80a8434fa63b8e491fdd802a7bef6c11a55",
+        "project_hash": "32fd36137a40234fb3de1285c2b427d6ef51127cbb63e90453a933e39a5e0eb8",
+        "reasons": [],
+        "release_authority": false,
+        "scope": "Only this frozen dataset, carrier, contract, checker version and experiment.",
+        "state": "ELIGIBLE_FOR_SHADOW_REVIEW"
+      },
+      "release_id": "demo-release",
+      "state": "ROLLED_BACK"
+    }
+  ],
+  "tail": "94a12727524e2984edd1c40433b610b61dbbe54293d055f174688f91466d053c",
+  "time_basis": "Synthetic clock epoch=1000. No claim of real approvals, field samples or external deployment.",
+  "verified": true
+}

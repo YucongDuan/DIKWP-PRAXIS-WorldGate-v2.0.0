@@ -1,0 +1,14 @@
+{
+  "runtime_dependency": false,
+  "schemas": [
+    "observation.schema.json",
+    "contract.schema.json",
+    "signed-envelope.schema.json",
+    "evidence.schema.json",
+    "action.schema.json",
+    "compensate.schema.json",
+    "grant.schema.json",
+    "revoke.schema.json"
+  ],
+  "valid": true
+}

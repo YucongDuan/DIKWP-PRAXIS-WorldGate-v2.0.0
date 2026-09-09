@@ -1,0 +1,40 @@
+{
+  "dropped_content_keys": [
+    "gen_ai.input.messages",
+    "private_chain_of_thought"
+  ],
+  "format": "OTLP_JSON_SUBSET_IMPORT",
+  "loss_report": [
+    "No full OTLP protobuf, collector, metrics, links or resource semantics support.",
+    "An imported causal-looking parent link is execution structure, not proof of causality.",
+    "Missing praxis authority/outcome metadata stays missing; no automatic pass.",
+    "GenAI convention version must be pinned by the deploying integration."
+  ],
+  "traces": [
+    {
+      "spans": [
+        {
+          "attrs": {},
+          "id": "0000000000000001",
+          "kind": "root",
+          "parent": null,
+          "step": 0
+        },
+        {
+          "attrs": {
+            "model_version": "synthetic-model"
+          },
+          "id": "0000000000000002",
+          "kind": "model",
+          "parent": "0000000000000001",
+          "step": 0
+        }
+      ],
+      "structural_errors": [],
+      "trace_id": "00000000000000000000000000000001"
+    }
+  ],
+  "unmapped_keys": [
+    "vendor.extra"
+  ]
+}

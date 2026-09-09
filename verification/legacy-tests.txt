@@ -1,0 +1,774 @@
+test_bad_trials (test_core.ContractsTests.test_bad_trials) ... ok
+test_demo_contract (test_core.ContractsTests.test_demo_contract) ... ok
+test_duplicate_case (test_core.ContractsTests.test_duplicate_case) ... ok
+test_exact_leakage (test_core.ContractsTests.test_exact_leakage) ... ok
+test_group_leakage (test_core.ContractsTests.test_group_leakage) ... ok
+test_missing_parent (test_core.ContractsTests.test_missing_parent) ... ok
+test_multiple_roots (test_core.ContractsTests.test_multiple_roots) ... ok
+test_no_holdout (test_core.ContractsTests.test_no_holdout) ... ok
+test_otel_empty (test_core.ContractsTests.test_otel_empty) ... ok
+test_otel_import_content_minimization (test_core.ContractsTests.test_otel_import_content_minimization) ... ok
+test_private_thought_removed (test_core.ContractsTests.test_private_thought_removed) ... ok
+test_redaction (test_core.ContractsTests.test_redaction) ... ok
+test_trace_cycle (test_core.ContractsTests.test_trace_cycle) ... ok
+test_unknown_check (test_core.ContractsTests.test_unknown_check) ... ok
+test_bool_cannot_equal_int (test_core.EvaluationTests.test_bool_cannot_equal_int) ... ok
+test_broker_enforcement (test_core.EvaluationTests.test_broker_enforcement) ... ok
+test_broker_quota (test_core.EvaluationTests.test_broker_quota) ... ok
+test_denied_call_not_performed_violation (test_core.EvaluationTests.test_denied_call_not_performed_violation) ... ok
+test_diagnostics_have_positive_control (test_core.EvaluationTests.test_diagnostics_have_positive_control) ... ok
+test_energy_scope_missing (test_core.EvaluationTests.test_energy_scope_missing) ... ok
+test_energy_unknown_not_zero (test_core.EvaluationTests.test_energy_unknown_not_zero) ... ok
+test_expired_lease_blocks (test_core.EvaluationTests.test_expired_lease_blocks) ... ok
+test_failed_outcome (test_core.EvaluationTests.test_failed_outcome) ... ok
+test_good (test_core.EvaluationTests.test_good) ... ok
+test_memory_other_namespace (test_core.EvaluationTests.test_memory_other_namespace) ... ok
+test_memory_untracked (test_core.EvaluationTests.test_memory_untracked) ... ok
+test_missing_authority_unknown (test_core.EvaluationTests.test_missing_authority_unknown) ... ok
+test_missing_expectation_unknown (test_core.EvaluationTests.test_missing_expectation_unknown) ... ok
+test_principal_mismatch (test_core.EvaluationTests.test_principal_mismatch) ... ok
+test_resource_overrun (test_core.EvaluationTests.test_resource_overrun) ... ok
+test_self_report_not_outcome (test_core.EvaluationTests.test_self_report_not_outcome) ... ok
+test_sql_and_direct_agree (test_core.EvaluationTests.test_sql_and_direct_agree) ... ok
+test_timeout_in_denominator (test_core.EvaluationTests.test_timeout_in_denominator) ... ok
+test_tool_budget_blocks (test_core.EvaluationTests.test_tool_budget_blocks) ... ok
+test_unauthorized_tool_blocks (test_core.EvaluationTests.test_unauthorized_tool_blocks) ... ok
+test_wrong_output (test_core.EvaluationTests.test_wrong_output) ... ok
+test_gate_dataset_leakage (test_core.HarnessTests.test_gate_dataset_leakage) ... ok
+test_incomplete_matrix_cannot_drop_failures (test_core.HarnessTests.test_incomplete_matrix_cannot_drop_failures) ... /mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed85e0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed84f0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed88b0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed86d0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddcc70>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddcd60>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddce50>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddcf40>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd030>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd120>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd210>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd300>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd3f0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd4e0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd5d0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd6c0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd7b0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd8a0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd990>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddda80>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddb70>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddc60>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddd50>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddde40>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddf30>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde020>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde110>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde200>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde2f0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde3e0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde4d0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde5c0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde6b0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde7a0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde890>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde980>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddea70>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddeb60>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddec50>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dded40>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddee30>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddef20>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf010>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf100>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf1f0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf2e0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf3d0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/harness.py:42: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf4c0>
+  expected={(c,k,a,t) for c in tests for k in project['carriers'] for a in ('OFF','ON') for t in range(ex['trials'])}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_low_groups_review (test_core.HarnessTests.test_low_groups_review) ... ok
+test_missing_confidence_review (test_core.HarnessTests.test_missing_confidence_review) ... ok
+test_no_on_records_never_eligible (test_core.HarnessTests.test_no_on_records_never_eligible) ... ok
+test_no_silent_overwrite (test_core.HarnessTests.test_no_silent_overwrite) ... ok
+test_run_and_replay (test_core.HarnessTests.test_run_and_replay) ... /mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed88b0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed86d0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed84f0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed85e0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf5b0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf4c0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf3d0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf2e0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf1f0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf100>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf010>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddef20>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddee30>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dded40>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddec50>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddeb60>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddea70>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde980>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde890>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde7a0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde6b0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde5c0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde4d0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/praxis2_build/praxis-worldgate/src/praxis_os/adapters.py:68: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde3e0>
+  ids=sorted(x[0] for x in con.execute('SELECT id FROM orders'+where))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed85e0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed84f0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed86d0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed88b0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde3e0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde4d0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde5c0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde6b0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde7a0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde890>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde980>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddea70>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddeb60>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddec50>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dded40>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddee30>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddef20>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf010>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf100>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf1f0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf2e0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf3d0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf4c0>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_bool_not_number (test_core.SerializationTests.test_bool_not_number) ... ok
+test_canonical_order (test_core.SerializationTests.test_canonical_order) ... ok
+test_chain_tamper (test_core.SerializationTests.test_chain_tamper) ... ok
+test_chain_truncation_needs_anchor (test_core.SerializationTests.test_chain_truncation_needs_anchor) ... ok
+test_chain_valid (test_core.SerializationTests.test_chain_valid) ... ok
+test_duplicate_keys (test_core.SerializationTests.test_duplicate_keys) ... ok
+test_manifest_extra_file (test_core.SerializationTests.test_manifest_extra_file) ... ok
+test_new_output_no_overwrite (test_core.SerializationTests.test_new_output_no_overwrite) ... ok
+test_nonfinite_dump (test_core.SerializationTests.test_nonfinite_dump) ... ok
+test_nonfinite_load (test_core.SerializationTests.test_nonfinite_load) ... ok
+test_size_limit (test_core.SerializationTests.test_size_limit) ... ok
+test_duplicate_pair_rejected (test_core.StatsTests.test_duplicate_pair_rejected) ... ok
+test_judge_abstentions (test_core.StatsTests.test_judge_abstentions) ... ok
+test_judge_duplicate (test_core.StatsTests.test_judge_duplicate) ... ok
+test_judge_no_negative_gold (test_core.StatsTests.test_judge_no_negative_gold) ... ok
+test_judge_probability_invalid (test_core.StatsTests.test_judge_probability_invalid) ... ok
+test_missing_arm_rejected (test_core.StatsTests.test_missing_arm_rejected) ... ok
+test_paired_effect (test_core.StatsTests.test_paired_effect) ... ok
+test_panel_disagreement (test_core.StatsTests.test_panel_disagreement) ... ok
+test_panel_duplicate (test_core.StatsTests.test_panel_duplicate) ... ok
+test_panel_unanimity_not_independence (test_core.StatsTests.test_panel_unanimity_not_independence) ... ok
+test_repeats_not_new_units (test_core.StatsTests.test_repeats_not_new_units) ... ok
+test_single_cluster_no_interval (test_core.StatsTests.test_single_cluster_no_interval) ... ok
+test_wilson_empty (test_core.StatsTests.test_wilson_empty) ... ok
+test_wilson_extremes (test_core.StatsTests.test_wilson_extremes) ... ok
+test_wilson_invalid (test_core.StatsTests.test_wilson_invalid) ... ok
+test_wilson_symmetry (test_core.StatsTests.test_wilson_symmetry) ... ok
+test_adapter_failure_recorded_not_dropped (test_extensions.ExtensionTests.test_adapter_failure_recorded_not_dropped) ... /usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbc40>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbb50>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edba60>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed88b0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed86d0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed84f0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed85e0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf4c0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf3d0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf2e0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf1f0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf100>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf010>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddef20>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddee30>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dded40>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddec50>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddeb60>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddea70>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde980>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde890>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde7a0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:246: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde6b0>
+  memo[id(memo)]=[x]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edba60>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbb50>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbc40>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_causal_negative_control (test_extensions.ExtensionTests.test_causal_negative_control) ... ok
+test_descendants_reopen_independent_preserved (test_extensions.ExtensionTests.test_descendants_reopen_independent_preserved) ... ok
+test_imported_run_cannot_smuggle_cot_or_policy (test_extensions.ExtensionTests.test_imported_run_cannot_smuggle_cot_or_policy) ... /usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbc40>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbb50>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edba60>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed88b0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed86d0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed84f0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed85e0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf4c0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf3d0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf2e0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf1f0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf100>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf010>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddef20>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddee30>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dded40>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddec50>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddeb60>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddea70>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde980>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde890>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde7a0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde6b0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde5c0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde4d0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde3e0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf5b0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde200>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde110>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde020>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddf30>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddde40>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddd50>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddc60>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddb70>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddda80>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd990>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd8a0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd7b0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd6c0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd5d0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd4e0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd3f0>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd300>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd210>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd120>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd030>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddcf40>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:232: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddcd60>
+  def _keep_alive(x, memo):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde2f0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed85e0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed84f0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed86d0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ed88b0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edba60>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbb50>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5edbc40>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddcd60>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddcf40>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd030>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd120>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd210>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd300>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd3f0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd4e0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd5d0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd6c0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd7b0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd8a0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddd990>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddda80>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddb70>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddc60>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddd50>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddde40>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dddf30>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde020>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde110>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde200>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf5b0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde3e0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde4d0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde5c0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde6b0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde7a0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde890>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dde980>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddea70>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddeb60>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddec50>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5dded40>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddee30>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddef20>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf010>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf100>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf1f0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/copy.py:119: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f2dd5ddf2e0>
+  def deepcopy(x, memo=None, _nil=[]):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_lineage_cycle_rejected (test_extensions.ExtensionTests.test_lineage_cycle_rejected) ... ok
+test_missing_source_rejected (test_extensions.ExtensionTests.test_missing_source_rejected) ... ok
+test_no_automatic_new_truth (test_extensions.ExtensionTests.test_no_automatic_new_truth) ... ok
+test_unknown_sampling (test_extensions.ExtensionTests.test_unknown_sampling) ... ok
+test_weighted_sampling (test_extensions.ExtensionTests.test_weighted_sampling) ... ok
+test_zero_inclusion_denied (test_extensions.ExtensionTests.test_zero_inclusion_denied) ... ok
+test_artifact_substitution (test_lifecycle.LifecycleTests.test_artifact_substitution) ... ok
+test_bad_cert_blocked (test_lifecycle.LifecycleTests.test_bad_cert_blocked) ... ok
+test_candidate_artifact_binding (test_lifecycle.LifecycleTests.test_candidate_artifact_binding) ... ok
+test_cannot_skip_shadow (test_lifecycle.LifecycleTests.test_cannot_skip_shadow) ... ok
+test_eval_cannot_grant_authority (test_lifecycle.LifecycleTests.test_eval_cannot_grant_authority) ... ok
+test_evidence_substitution (test_lifecycle.LifecycleTests.test_evidence_substitution) ... ok
+test_expired_observation_blocks (test_lifecycle.LifecycleTests.test_expired_observation_blocks) ... ok
+test_expired_token (test_lifecycle.LifecycleTests.test_expired_token) ... ok
+test_full_path_and_harm_rollback (test_lifecycle.LifecycleTests.test_full_path_and_harm_rollback) ... ok
+test_harm_blocks_canary (test_lifecycle.LifecycleTests.test_harm_blocks_canary) ... ok
+test_initial_not_active (test_lifecycle.LifecycleTests.test_initial_not_active) ... ok
+test_invalid_short_key (test_lifecycle.LifecycleTests.test_invalid_short_key) ... ok
+test_journal_delete_rejected (test_lifecycle.LifecycleTests.test_journal_delete_rejected) ... ok
+test_journal_update_rejected (test_lifecycle.LifecycleTests.test_journal_update_rejected) ... ok
+test_materialized_state_tamper_detected (test_lifecycle.LifecycleTests.test_materialized_state_tamper_detected) ... ok
+test_missing_outcome_blocks_canary (test_lifecycle.LifecycleTests.test_missing_outcome_blocks_canary) ... ok
+test_no_rollback_plan (test_lifecycle.LifecycleTests.test_no_rollback_plan) ... ok
+test_nonce_replay_blocks (test_lifecycle.LifecycleTests.test_nonce_replay_blocks) ... ok
+test_nonce_store_tamper_detected (test_lifecycle.LifecycleTests.test_nonce_store_tamper_detected) ... ok
+test_role_map_cannot_change_silently (test_lifecycle.LifecycleTests.test_role_map_cannot_change_silently) ... ok
+test_role_separation (test_lifecycle.LifecycleTests.test_role_separation) ... ok
+test_shadow_succeeds (test_lifecycle.LifecycleTests.test_shadow_succeeds) ... ok
+test_small_n_blocks_canary (test_lifecycle.LifecycleTests.test_small_n_blocks_canary) ... ok
+test_stored_certificate_tamper_detected (test_lifecycle.LifecycleTests.test_stored_certificate_tamper_detected) ... ok
+test_unknown_outcome_keeps_state (test_lifecycle.LifecycleTests.test_unknown_outcome_keeps_state) ... ok
+test_unsigned_denied (test_lifecycle.LifecycleTests.test_unsigned_denied) ... ok
+test_absolute_exec_required (test_process.ProcessTests.test_absolute_exec_required) ... ok
+test_argv_not_shell (test_process.ProcessTests.test_argv_not_shell) ... ok
+test_default_denies (test_process.ProcessTests.test_default_denies) ... ok
+test_env_secret_not_inherited (test_process.ProcessTests.test_env_secret_not_inherited) ... ok
+test_invalid_json (test_process.ProcessTests.test_invalid_json) ... ok
+test_nonzero_worker (test_process.ProcessTests.test_nonzero_worker) ... ok
+test_output_cap (test_process.ProcessTests.test_output_cap) ... ok
+test_timeout (test_process.ProcessTests.test_timeout) ... ok
+test_valid_json (test_process.ProcessTests.test_valid_json) ... ok
+
+----------------------------------------------------------------------
+Ran 115 tests in 3.865s
+
+OK
