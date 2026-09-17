@@ -1,5 +1,13 @@
 # DIKWP-PRAXIS-OS 2.0.0 · WORLDGATE
 
+
+[**Start here · 使用导读**](GETTING_STARTED.md) · [Project details · 项目详情](https://github.com/YucongDuan/YucongDuan/blob/main/projects/1362120264.md)
+
+Connect signed authority, atomic state changes, outcome observation and conditional compensation in a local inventory adapter.
+
+在本地库存适配器中连接签名权限、原子状态变更、结果观测与有条件补偿。
+
+
 Created by Yucong Duan (段玉聪). Licensed under Apache-2.0.
 
 [中文说明](README_CN.md) · [Complete original delivery](release/praxis_v2.zip) · [Publication record](PUBLICATION.md)
